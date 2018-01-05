@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "JSONToDate",
+        "dontautoexpand" : true,
+        "name" : "Converts a JSON object to a date.",
+        "snippet": "const JSONToDate = arr => {\n  const dt = new Date(parseInt(arr.toString().substr(6)));\n  return `${dt.getDate()}/${dt.getMonth() + 1}/${dt.getFullYear()}`;\n};\n",
+        "uid": "01daa75c-f1f4-11e7-9915-784f4386400a"
+    }
+}

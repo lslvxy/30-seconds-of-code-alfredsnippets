@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "truncateString",
+        "dontautoexpand" : true,
+        "name" : "Truncates a string up to a specified length.",
+        "snippet": "const truncateString = (str, num) =>\n  str.length > num ? str.slice(0, num > 3 ? num - 3 : num) + '...' : str;\n",
+        "uid": "01d65530-f1f4-11e7-bafe-784f4386400a"
+    }
+}

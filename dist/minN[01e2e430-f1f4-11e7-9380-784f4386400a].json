@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "minN",
+        "dontautoexpand" : true,
+        "name" : "Returns the `n` minimum elements from the provided array. If `n` is greater than or equal to the provided array's length, then return the original array(sorted in ascending order).",
+        "snippet": "const minN = (arr, n = 1) => [...arr].sort((a, b) => a - b).slice(0, n);\n",
+        "uid": "01e2e430-f1f4-11e7-9380-784f4386400a"
+    }
+}

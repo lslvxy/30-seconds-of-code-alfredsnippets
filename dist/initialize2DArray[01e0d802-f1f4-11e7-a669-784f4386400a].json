@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "initialize2DArray",
+        "dontautoexpand" : true,
+        "name" : "Initializes a 2D array of given width and height and value.",
+        "snippet": "const initialize2DArray = (w, h, val = null) =>\n  Array(h)\n    .fill()\n    .map(() => Array(w).fill(val));\n",
+        "uid": "01e0d802-f1f4-11e7-a669-784f4386400a"
+    }
+}

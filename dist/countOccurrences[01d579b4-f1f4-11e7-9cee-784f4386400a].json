@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "countOccurrences",
+        "dontautoexpand" : true,
+        "name" : "Counts the occurrences of a value in an array.",
+        "snippet": "const countOccurrences = (arr, value) => arr.reduce((a, v) => (v === value ? a + 1 : a + 0), 0);\n",
+        "uid": "01d579b4-f1f4-11e7-9cee-784f4386400a"
+    }
+}

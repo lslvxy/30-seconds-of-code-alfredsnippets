@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isBoolean",
+        "dontautoexpand" : true,
+        "name" : "Checks if the given argument is a native boolean element.",
+        "snippet": "const isBoolean = val => typeof val === 'boolean';\n",
+        "uid": "01ce9912-f1f4-11e7-b133-784f4386400a"
+    }
+}

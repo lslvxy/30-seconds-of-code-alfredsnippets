@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "factorial",
+        "dontautoexpand" : true,
+        "name" : "Calculates the factorial of a number.",
+        "snippet": "const factorial = n =>\n  n < 0\n    ? (() => {\n        throw new TypeError('Negative numbers are not allowed!');\n      })()\n    : n <= 1 ? 1 : n * factorial(n - 1);\n",
+        "uid": "01d0edc0-f1f4-11e7-b3ba-784f4386400a"
+    }
+}

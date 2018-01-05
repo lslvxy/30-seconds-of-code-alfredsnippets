@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "deepFlatten",
+        "dontautoexpand" : true,
+        "name" : "Deep flattens an array.",
+        "snippet": "const deepFlatten = arr => [].concat(...arr.map(v => (Array.isArray(v) ? deepFlatten(v) : v)));\n",
+        "uid": "01e45874-f1f4-11e7-a679-784f4386400a"
+    }
+}

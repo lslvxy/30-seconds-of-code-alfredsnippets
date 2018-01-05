@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "validateNumber",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the given value is a number, `false` otherwise.",
+        "snippet": "const validateNumber = n => !isNaN(parseFloat(n)) && isFinite(n) && Number(n) == n;\n",
+        "uid": "01ded23a-f1f4-11e7-b879-784f4386400a"
+    }
+}

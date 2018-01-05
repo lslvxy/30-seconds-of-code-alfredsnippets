@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "coalesce",
+        "dontautoexpand" : true,
+        "name" : "Returns the first non-null/undefined argument.",
+        "snippet": "const coalesce = (...args) => args.find(_ => ![undefined, null].includes(_));\n",
+        "uid": "01e3e218-f1f4-11e7-b384-784f4386400a"
+    }
+}

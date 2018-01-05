@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "curry",
+        "dontautoexpand" : true,
+        "name" : "Curries a function.",
+        "snippet": "const curry = (fn, arity = fn.length, ...args) =>\n  arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);\n",
+        "uid": "01cf4dc6-f1f4-11e7-94ee-784f4386400a"
+    }
+}

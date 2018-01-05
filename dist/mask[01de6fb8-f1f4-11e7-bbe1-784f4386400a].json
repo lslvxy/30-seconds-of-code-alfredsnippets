@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "mask",
+        "dontautoexpand" : true,
+        "name" : "Replaces all but the last `num` of characters with the specified mask character.",
+        "snippet": "const mask = (cc, num = 4, mask = '*') =>\n  ('' + cc).slice(0, -num).replace(/./g, mask) + ('' + cc).slice(-num);\n",
+        "uid": "01de6fb8-f1f4-11e7-bbe1-784f4386400a"
+    }
+}

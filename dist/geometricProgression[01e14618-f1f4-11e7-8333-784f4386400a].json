@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "geometricProgression",
+        "dontautoexpand" : true,
+        "name" : "Initializes an array containing the numbers in the specified range where `start` and `end` are inclusive and the ratio between two terms is `step`.",
+        "snippet": "const geometricProgression = (end, start = 1, step = 2) =>\n  Array.from({ length: Math.floor(Math.log(end / start) / Math.log(step)) + 1 }).map(\n    (v, i) => start * step ** i\n  );\n",
+        "uid": "01e14618-f1f4-11e7-8333-784f4386400a"
+    }
+}

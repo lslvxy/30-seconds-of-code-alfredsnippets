@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isArrayLike",
+        "dontautoexpand" : true,
+        "name" : "Checks if the provided argument is array-like (i.e. is iterable).",
+        "snippet": "const isArrayLike = val => {\n  try {\n    return [...val], true;\n  } catch (e) {\n    return false;\n  }\n};\n",
+        "uid": "01d29436-f1f4-11e7-8b58-784f4386400a"
+    }
+}

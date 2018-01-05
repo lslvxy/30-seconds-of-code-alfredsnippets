@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "onUserInputChange",
+        "dontautoexpand" : true,
+        "name" : "Run the callback whenever the user input type changes (`mouse` or `touch`). Useful for enabling/disabling code depending on the input device. This process is dynamic and works with hybrid devices (e.g. touchscreen laptops).",
+        "snippet": "const onUserInputChange = callback => {\n  let type = 'mouse',\n    lastTime = 0;\n  const mousemoveHandler = () => {\n    const now = performance.now();\n    if (now - lastTime < 20)\n      (type = 'mouse'), callback(type), document.removeEventListener('mousemove', mousemoveHandler);\n    lastTime = now;\n  };\n  document.addEventListener('touchstart', () => {\n    if (type === 'touch') return;\n    (type = 'touch'), callback(type), document.addEventListener('mousemove', mousemoveHandler);\n  });\n};\n",
+        "uid": "01d2c7b4-f1f4-11e7-b566-784f4386400a"
+    }
+}

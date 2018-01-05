@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "memoize",
+        "dontautoexpand" : true,
+        "name" : "Returns the memoized (cached) function.",
+        "snippet": "const memoize = fn => {\n  const cache = new Map();\n  const cached = function(val) {\n    return cache.has(val) ? cache.get(val) : cache.set(val, fn.call(this, val)) && cache.get(val);\n  };\n  cached.cache = cache;\n  return cached;\n};\n",
+        "uid": "01e07768-f1f4-11e7-b8a2-784f4386400a"
+    }
+}

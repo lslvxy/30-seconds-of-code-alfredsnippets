@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "select",
+        "dontautoexpand" : true,
+        "name" : "Retrieve a property that indicated by the selector from an object.",
+        "snippet": "const select = (from, selector) =>\n  selector.split('.').reduce((prev, cur) => prev && prev[cur], from);\n",
+        "uid": "01d7267a-f1f4-11e7-8ca2-784f4386400a"
+    }
+}

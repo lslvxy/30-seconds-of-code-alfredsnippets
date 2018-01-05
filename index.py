@@ -13,7 +13,6 @@ path="./"
 os.chdir(path)
 shutil.rmtree('dist')  
 os.mkdir('dist')
-os.mknod("./dist/.gitkeep")
 for filename in os.listdir("./30-seconds-of-code/snippets"):  
     file = open("./30-seconds-of-code/snippets/"+filename,'r',-1,"UTF-8") 
     i=1

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "show",
+        "dontautoexpand" : true,
+        "name" : "Shows all the elements specified.",
+        "snippet": "const show = (...el) => [...el].forEach(e => (e.style.display = ''));\n",
+        "uid": "01e0a8f0-f1f4-11e7-a694-784f4386400a"
+    }
+}

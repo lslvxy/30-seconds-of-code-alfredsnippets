@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "elo",
+        "dontautoexpand" : true,
+        "name" : "Computes the new ratings between two or more opponents using the [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system). It takes an array",
+        "snippet": "const elo = ([...ratings], kFactor = 32, selfRating) => {\n  const [a, b] = ratings;\n  const expectedScore = (self, opponent) => 1 / (1 + 10 ** ((opponent - self) / 400));\n  const newRating = (rating, i) =>\n    (selfRating || rating) + kFactor * (i - expectedScore(i ? a : b, i ? b : a));\n  if (ratings.length === 2) {\n    return [newRating(a, 1), newRating(b, 0)];\n  } else {\n    for (let i = 0; i < ratings.length; i++) {\n      let j = i;\n      while (j < ratings.length - 1) {\n        [ratings[i], ratings[j + 1]] = elo([ratings[i], ratings[j + 1]], kFactor);\n        j++;\n      }\n    }\n  }\n  return ratings;\n};\n",
+        "uid": "01ddec78-f1f4-11e7-b6d2-784f4386400a"
+    }
+}
