@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "primes",
-        "dontautoexpand" : true,
-        "name" : "Generates primes up to a given number, using the Sieve of Eratosthenes.",
-        "snippet": "const primes = num => {\n  let arr = Array.from({ length: num - 1 }).map((x, i) => i + 2),\n    sqroot = Math.floor(Math.sqrt(num)),\n    numsTillSqroot = Array.from({ length: sqroot - 1 }).map((x, i) => i + 2);\n  numsTillSqroot.forEach(x => (arr = arr.filter(y => y % x !== 0 || y == x)));\n  return arr;\n};\n",
-        "uid": "32023590-f1f3-11e7-aedb-784f4386400a"
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "currentURL",
-        "dontautoexpand" : true,
-        "name" : "Returns the current URL.",
-        "snippet": "const currentURL = () => window.location.href;\n",
-        "uid": "32036bd8-f1f3-11e7-8901-784f4386400a"
-    }
-}

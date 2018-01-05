@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "gcd",
-        "dontautoexpand" : true,
-        "name" : "Calculates the greatest common divisor between two or more numbers/arrays.",
-        "snippet": "const gcd = (...arr) => {\n  const _gcd = (x, y) => (!y ? x : gcd(y, x % y));\n  return [].concat(...arr).reduce((a, b) => _gcd(a, b));\n};\n",
-        "uid": "32093d5e-f1f3-11e7-acfe-784f4386400a"
-    }
-}

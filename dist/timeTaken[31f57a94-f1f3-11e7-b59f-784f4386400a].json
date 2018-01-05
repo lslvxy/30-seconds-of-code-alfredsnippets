@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "timeTaken",
-        "dontautoexpand" : true,
-        "name" : "Measures the time taken by a function to execute.",
-        "snippet": "const timeTaken = callback => {\n  console.time('timeTaken');\n  const r = callback();\n  console.timeEnd('timeTaken');\n  return r;\n};\n",
-        "uid": "31f57a94-f1f3-11e7-b59f-784f4386400a"
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "countVowels",
-        "dontautoexpand" : true,
-        "name" : "Retuns `number` of vowels in provided string.",
-        "snippet": "const countVowels = str => (str.match(/[aeiou]/gi) || []).length;\n",
-        "uid": "32026418-f1f3-11e7-b9b4-784f4386400a"
-    }
-}

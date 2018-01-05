@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "prettyBytes",
-        "dontautoexpand" : true,
-        "name" : "Converts a number in bytes to a human-readable string.",
-        "snippet": "const prettyBytes = (num, precision = 3, addSpace = true) => {\n  const UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];\n  if (Math.abs(num) < 1) return num + (addSpace ? ' ' : '') + UNITS[0];\n  const exponent = Math.min(Math.floor(Math.log10(num < 0 ? -num : num) / 3), UNITS.length - 1);\n  const n = Number(((num < 0 ? -num : num) / 1000 ** exponent).toPrecision(precision));\n  return (num < 0 ? '-' : '') + n + (addSpace ? ' ' : '') + UNITS[exponent];\n};\n",
-        "uid": "3207444a-f1f3-11e7-92bc-784f4386400a"
-    }
-}

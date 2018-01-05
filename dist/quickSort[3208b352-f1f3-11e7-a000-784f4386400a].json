@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "quickSort",
-        "dontautoexpand" : true,
-        "name" : "QuickSort an Array (ascending sort by default).",
-        "snippet": "const quickSort = ([n, ...nums], desc) =>\n  isNaN(n)\n    ? []\n    : [\n        ...quickSort(nums.filter(v => (desc ? v > n : v <= n)), desc),\n        n,\n        ...quickSort(nums.filter(v => (!desc ? v > n : v <= n)), desc)\n      ];\n",
-        "uid": "3208b352-f1f3-11e7-a000-784f4386400a"
-    }
-}

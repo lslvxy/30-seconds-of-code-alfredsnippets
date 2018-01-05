@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "sumPower",
-        "dontautoexpand" : true,
-        "name" : "Returns the sum of the powers of all the numbers from `start` to `end` (both inclusive).",
-        "snippet": "const sumPower = (end, power = 2, start = 1) =>\n  Array(end + 1 - start)\n    .fill(0)\n    .map((x, i) => (i + start) ** power)\n    .reduce((a, b) => a + b, 0);\n",
-        "uid": "31fe457a-f1f3-11e7-8c9a-784f4386400a"
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "truthCheckCollection",
-        "dontautoexpand" : true,
-        "name" : "Checks if the predicate (second argument) is truthy on all elements of a collection (first argument).",
-        "snippet": "const truthCheckCollection = (collection, pre) => collection.every(obj => obj[pre]);\n",
-        "uid": "31f86f1a-f1f3-11e7-90ca-784f4386400a"
-    }
-}

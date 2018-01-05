@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "sbdm",
-        "dontautoexpand" : true,
-        "name" : "This algorithm is a simple hash-algorithm that hashes it input string `s` into a whole number.",
-        "snippet": "const sdbm = str => {\n  let arr = str.split('');\n  return arr.reduce(\n    (hashCode, currentVal) =>\n      (hashCode = currentVal.charCodeAt(0) + (hashCode << 6) + (hashCode << 16) - hashCode),\n    0\n  );\n};\n",
-        "uid": "32006422-f1f3-11e7-ab5f-784f4386400a"
-    }
-}

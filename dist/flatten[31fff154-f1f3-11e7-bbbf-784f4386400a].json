@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "flatten",
-        "dontautoexpand" : true,
-        "name" : "Flattens an array.",
-        "snippet": "const flatten = arr => [].concat(...arr);\n",
-        "uid": "31fff154-f1f3-11e7-bbbf-784f4386400a"
-    }
-}
