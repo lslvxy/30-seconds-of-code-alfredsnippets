@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "hasFlags",
+        "dontautoexpand" : true,
+        "name" : "Check if the current process's arguments contain the specified flags.",
+        "snippet": "const hasFlags = (...flags) =>\\n  flags.every(flag => process.argv.includes(/^-{1,2}/.test(flag) ? flag : '--' + flag));\\n",
+        "uid": "e92db8b8-f1f1-11e7-9774-784f4386400a"
+    }
+}

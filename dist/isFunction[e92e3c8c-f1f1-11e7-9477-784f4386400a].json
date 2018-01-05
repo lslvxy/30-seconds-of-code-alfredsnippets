@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isFunction",
+        "dontautoexpand" : true,
+        "name" : "Checks if the given argument is a function.",
+        "snippet": "const isFunction = val => typeof val === 'function';\\n",
+        "uid": "e92e3c8c-f1f1-11e7-9477-784f4386400a"
+    }
+}

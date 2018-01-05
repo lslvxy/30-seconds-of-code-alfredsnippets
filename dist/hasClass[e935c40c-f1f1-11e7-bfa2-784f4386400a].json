@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "hasClass",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the element has the specified class, `false` otherwise.",
+        "snippet": "const hasClass = (el, className) => el.classList.contains(className);\\n",
+        "uid": "e935c40c-f1f1-11e7-bfa2-784f4386400a"
+    }
+}

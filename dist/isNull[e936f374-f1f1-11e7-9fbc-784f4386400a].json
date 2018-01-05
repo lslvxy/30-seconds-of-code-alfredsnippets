@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isNull",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the specified value is `null`, `false` otherwise.",
+        "snippet": "const isNull = val => val === null;\\n",
+        "uid": "e936f374-f1f1-11e7-9fbc-784f4386400a"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "median",
+        "dontautoexpand" : true,
+        "name" : "Returns the median of an array of numbers.",
+        "snippet": "const median = arr => {\\n  const mid = Math.floor(arr.length / 2),\\n    nums = [...arr].sort((a, b) => a - b);\\n  return arr.length % 2 !== 0 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;\\n};\\n",
+        "uid": "e9255dda-f1f1-11e7-8a24-784f4386400a"
+    }
+}

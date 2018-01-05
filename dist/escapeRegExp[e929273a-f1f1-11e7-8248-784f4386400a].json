@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "escapeRegExp",
+        "dontautoexpand" : true,
+        "name" : "Escapes a string to use in a regular expression.",
+        "snippet": "const escapeRegExp = str => str.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');\\n",
+        "uid": "e929273a-f1f1-11e7-8248-784f4386400a"
+    }
+}

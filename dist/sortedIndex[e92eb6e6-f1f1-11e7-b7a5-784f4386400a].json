@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sortedIndex",
+        "dontautoexpand" : true,
+        "name" : "Returns the lowest index at which value should be inserted into array in order to maintain its sort order.",
+        "snippet": "const sortedIndex = (arr, n) => {\\n  const isDescending = arr[0] > arr[arr.length - 1];\\n  const index = arr.findIndex(el => (isDescending ? n >= el : n <= el));\\n  return index === -1 ? arr.length : index;\\n};\\n",
+        "uid": "e92eb6e6-f1f1-11e7-b7a5-784f4386400a"
+    }
+}

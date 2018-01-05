@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "capitalizeEveryWord",
+        "dontautoexpand" : true,
+        "name" : "Capitalizes the first letter of every word in a string.",
+        "snippet": "const capitalizeEveryWord = str => str.replace(/\\b[a-z]/g, char => char.toUpperCase());\\n",
+        "uid": "e9322a24-f1f1-11e7-a0c5-784f4386400a"
+    }
+}

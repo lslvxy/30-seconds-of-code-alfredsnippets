@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "lcm",
+        "dontautoexpand" : true,
+        "name" : "Returns the least common multiple of two or more numbers/arrays.",
+        "snippet": "const lcm = (...arr) => {\\n  const gcd = (x, y) => (!y ? x : gcd(y, x % y));\\n  const _lcm = (x, y) => x * y / gcd(x, y);\\n  return [].concat(...arr).reduce((a, b) => _lcm(a, b));\\n};\\n",
+        "uid": "e9293f22-f1f1-11e7-b669-784f4386400a"
+    }
+}

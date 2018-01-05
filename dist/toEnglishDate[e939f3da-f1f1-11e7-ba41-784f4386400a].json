@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "toEnglishDate",
+        "dontautoexpand" : true,
+        "name" : "Converts a date from American format to English format.",
+        "snippet": "const toEnglishDate = time => {\\n  try {\\n    return new Date(time)\\n      .toISOString()\\n      .split('T')[0]\\n      .replace(/-/g, '/');\\n  } catch (e) {}\\n};\\n",
+        "uid": "e939f3da-f1f1-11e7-ba41-784f4386400a"
+    }
+}

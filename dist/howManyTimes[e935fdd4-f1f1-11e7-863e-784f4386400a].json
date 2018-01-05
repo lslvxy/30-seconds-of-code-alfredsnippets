@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "howManyTimes",
+        "dontautoexpand" : true,
+        "name" : "Returns the number of times `num` can be divided by `divisor` (integer or fractional) without getting a fractional answer.",
+        "snippet": "const howManyTimes = (num, divisor) => {\\n  if (divisor === 1 || divisor === -1) return Infinity;\\n  if (divisor === 0) return 0;\\n  let i = 0;\\n  while (Number.isInteger(num / divisor)) {\\n    i++;\\n    num = num / divisor;\\n  }\\n  return i;\\n};\\n",
+        "uid": "e935fdd4-f1f1-11e7-863e-784f4386400a"
+    }
+}

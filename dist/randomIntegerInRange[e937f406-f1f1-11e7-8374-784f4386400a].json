@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "randomIntegerInRange",
+        "dontautoexpand" : true,
+        "name" : "Returns a random integer in the specified range.",
+        "snippet": "const randomIntegerInRange = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;\\n",
+        "uid": "e937f406-f1f1-11e7-8374-784f4386400a"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "luhnCheck",
+        "dontautoexpand" : true,
+        "name" : "Implementation of the [Luhn Algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) used to validate a variety of identification numbers, such as credit card numbers, IMEI numbers, National Provider Identifier numbers etc.",
+        "snippet": "const luhnCheck = num => {\\n  let arr = (num + '')\\n    .split('')\\n    .reverse()\\n    .map(x => parseInt(x));\\n  let lastDigit = arr.splice(0, 1)[0];\\n  let sum = arr.reduce((acc, val, i) => (i % 2 !== 0 ? acc + val : acc + (val * 2) % 9 || 9), 0);\\n  sum += lastDigit;\\n  return sum % 10 === 0;\\n};\\n",
+        "uid": "e92acd7e-f1f1-11e7-9006-784f4386400a"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "untildify",
+        "dontautoexpand" : true,
+        "name" : "Converts a tilde path to an absolute path.",
+        "snippet": "const untildify = str => str.replace(/^~($|\\/|\\\\)/, `${require('os').homedir()}$1`);\\n",
+        "uid": "e93514dc-f1f1-11e7-a549-784f4386400a"
+    }
+}

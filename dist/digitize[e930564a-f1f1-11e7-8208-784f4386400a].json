@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "digitize",
+        "dontautoexpand" : true,
+        "name" : "Converts a number to an array of digits.",
+        "snippet": "const digitize = n => [...('' + n)].map(i => parseInt(i));\\n",
+        "uid": "e930564a-f1f1-11e7-8208-784f4386400a"
+    }
+}
