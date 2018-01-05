@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "shallowClone",
+        "dontautoexpand" : true,
+        "name" : "Creates a shallow clone of an object.",
+        "snippet": "const shallowClone = obj => Object.assign({}, obj);\n",
+        "uid": "31fdc5c8-f1f3-11e7-9f10-784f4386400a"
+    }
+}

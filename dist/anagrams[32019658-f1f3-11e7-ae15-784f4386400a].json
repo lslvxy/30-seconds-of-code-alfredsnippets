@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "anagrams",
+        "dontautoexpand" : true,
+        "name" : "Generates all anagrams of a string (contains duplicates).",
+        "snippet": "const anagrams = str => {\n  if (str.length <= 2) return str.length === 2 ? [str, str[1] + str[0]] : [str];\n  return str\n    .split('')\n    .reduce(\n      (acc, letter, i) =>\n        acc.concat(anagrams(str.slice(0, i) + str.slice(i + 1)).map(val => letter + val)),\n      []\n    );\n};\n",
+        "uid": "32019658-f1f3-11e7-ae15-784f4386400a"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isValidJSON",
+        "dontautoexpand" : true,
+        "name" : "Checks if the provided argument is a valid JSON.",
+        "snippet": "const isValidJSON = obj => {\n  try {\n    JSON.parse(obj);\n    return true;\n  } catch (e) {\n    return false;\n  }\n};\n",
+        "uid": "32078a9a-f1f3-11e7-b54f-784f4386400a"
+    }
+}

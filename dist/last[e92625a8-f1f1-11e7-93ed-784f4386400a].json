@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "last",
-        "dontautoexpand" : true,
-        "name" : "Returns the last element in an array.",
-        "snippet": "const last = arr => arr[arr.length - 1];\\n",
-        "uid": "e92625a8-f1f1-11e7-93ed-784f4386400a"
-    }
-}

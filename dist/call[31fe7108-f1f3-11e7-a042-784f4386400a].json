@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "call",
+        "dontautoexpand" : true,
+        "name" : "Given a key and a set of arguments, call them when given a context. Primarily useful in composition.",
+        "snippet": "const call = (key, ...args) => context => context[key](...args);\n",
+        "uid": "31fe7108-f1f3-11e7-a042-784f4386400a"
+    }
+}

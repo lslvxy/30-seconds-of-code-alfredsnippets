@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "reverseString",
-        "dontautoexpand" : true,
-        "name" : "Reverses a string.",
-        "snippet": "const reverseString = str =>\\n  str\\n    .split('')\\n    .reverse()\\n    .join('');\\n",
-        "uid": "e930d9e4-f1f1-11e7-a8c8-784f4386400a"
-    }
-}

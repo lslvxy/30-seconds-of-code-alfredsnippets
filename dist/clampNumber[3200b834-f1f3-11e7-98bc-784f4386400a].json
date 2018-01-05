@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "clampNumber",
+        "dontautoexpand" : true,
+        "name" : "Clamps `num` within the inclusive range specified by the boundary values `a` and `b`.",
+        "snippet": "const clampNumber = (num, a, b) => Math.max(Math.min(num, Math.max(a, b)), Math.min(a, b));\n",
+        "uid": "3200b834-f1f3-11e7-98bc-784f4386400a"
+    }
+}

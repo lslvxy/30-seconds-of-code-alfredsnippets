@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "solveRPN",
-        "dontautoexpand" : true,
-        "name" : "Solves the given mathematical expression in [reverse polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation).",
-        "snippet": "const solveRPN = rpn => {\\n  const OPERATORS = {\\n    '*': (a, b) => a * b,\\n    '+': (a, b) => a + b,\\n    '-': (a, b) => a - b,\\n    '/': (a, b) => a / b,\\n    '**': (a, b) => a ** b\\n  };\\n  const [stack, solve] = [\\n    [],\\n    rpn\\n      .replace(/\\^/g, '**')\\n      .split(/\\s+/g)\\n      .filter(el => !/\\s+/.test(el) && el !== '')\\n  ];\\n  solve.forEach(symbol => {\\n    if (!isNaN(parseFloat(symbol)) && isFinite(symbol)) {\\n      stack.push(symbol);\\n    } else if (Object.keys(OPERATORS).includes(symbol)) {\\n      const [a, b] = [stack.pop(), stack.pop()];\\n      stack.push(OPERATORS[symbol](parseFloat(b), parseFloat(a)));\\n    } else {\\n      throw `${symbol} is not a recognized symbol`;\\n    }\\n  });\\n  if (stack.length === 1) return stack.pop();\\n  else throw `${rpn} is not a proper RPN. Please check it and try again`;\\n};\\n",
-        "uid": "e932051c-f1f1-11e7-b29b-784f4386400a"
-    }
-}

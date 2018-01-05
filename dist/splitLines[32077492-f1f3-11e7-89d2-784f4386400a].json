@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "splitLines",
+        "dontautoexpand" : true,
+        "name" : "Splits a multiline string into an array of lines.",
+        "snippet": "const splitLines = str => str.split(/\r?\n/);\n",
+        "uid": "32077492-f1f3-11e7-89d2-784f4386400a"
+    }
+}

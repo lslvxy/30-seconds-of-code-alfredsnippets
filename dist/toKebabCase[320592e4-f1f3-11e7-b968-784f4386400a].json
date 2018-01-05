@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "toKebabCase",
+        "dontautoexpand" : true,
+        "name" : "Converts a string to kebab case.",
+        "snippet": "const toKebabCase = str =>\n  str &&\n  str\n    .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)\n    .map(x => x.toLowerCase())\n    .join('-');\n",
+        "uid": "320592e4-f1f3-11e7-b968-784f4386400a"
+    }
+}

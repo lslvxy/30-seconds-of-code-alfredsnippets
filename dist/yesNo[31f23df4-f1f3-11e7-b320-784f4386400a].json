@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "yesNo",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the string is `y`/`yes` or `false` if the string is `n`/`no`.",
+        "snippet": "const yesNo = (val, def = false) =>\n  /^(y|yes)$/i.test(val) ? true : /^(n|no)$/i.test(val) ? false : def;\n",
+        "uid": "31f23df4-f1f3-11e7-b320-784f4386400a"
+    }
+}

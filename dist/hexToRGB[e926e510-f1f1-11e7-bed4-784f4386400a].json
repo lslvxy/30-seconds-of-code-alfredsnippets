@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "hexToRGB",
-        "dontautoexpand" : true,
-        "name" : "Converts a color code to a `rgb()` or `rgba()` string if alpha value is provided.",
-        "snippet": "const hexToRGB = hex => {\\n  let alpha = false,\\n    h = hex.slice(hex.startsWith('#') ? 1 : 0);\\n  if (h.length === 3) h = [...h].map(x => x + x).join('');\\n  else if (h.length === 8) alpha = true;\\n  h = parseInt(h, 16);\\n  return (\\n    'rgb' +\\n    (alpha ? 'a' : '') +\\n    '(' +\\n    (h >>> (alpha ? 24 : 16)) +\\n    ', ' +\\n    ((h & (alpha ? 0x00ff0000 : 0x00ff00)) >>> (alpha ? 16 : 8)) +\\n    ', ' +\\n    ((h & (alpha ? 0x0000ff00 : 0x0000ff)) >>> (alpha ? 8 : 0)) +\\n    (alpha ? `, ${h & 0x000000ff}` : '') +\\n    ')'\\n  );\\n};\\n",
-        "uid": "e926e510-f1f1-11e7-bed4-784f4386400a"
-    }
-}

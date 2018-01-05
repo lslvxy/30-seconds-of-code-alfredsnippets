@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "zipObject",
-        "dontautoexpand" : true,
-        "name" : "Given an array of valid property identifiers and an array of values, return an object associating the properties to the values.",
-        "snippet": "const zipObject = (props, values) =>\\n  props.reduce((obj, prop, index) => ((obj[prop] = values[index]), obj), {});\\n",
-        "uid": "e936a87e-f1f1-11e7-9116-784f4386400a"
-    }
-}

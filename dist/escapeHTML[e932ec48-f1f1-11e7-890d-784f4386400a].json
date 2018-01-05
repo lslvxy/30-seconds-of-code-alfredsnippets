@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "escapeHTML",
-        "dontautoexpand" : true,
-        "name" : "Escapes a string for use in HTML.",
-        "snippet": "const escapeHTML = str =>\\n  str.replace(\\n    /[&<>'\\"]/g,\\n    tag =>\\n      ({\\n        '&': '&amp;',\\n        '<': '&lt;',\\n        '>': '&gt;',\\n        \\"'\\": '&#39;',\\n        '\\"': '&quot;'\\n      }[tag] || tag)\\n  );\\n",
-        "uid": "e932ec48-f1f1-11e7-890d-784f4386400a"
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "difference",
-        "dontautoexpand" : true,
-        "name" : "Returns the difference between two arrays.",
-        "snippet": "const difference = (a, b) => {\\n  const s = new Set(b);\\n  return a.filter(x => !s.has(x));\\n};\\n",
-        "uid": "e932a076-f1f1-11e7-886c-784f4386400a"
-    }
-}

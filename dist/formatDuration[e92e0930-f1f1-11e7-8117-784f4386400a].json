@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "formatDuration",
-        "dontautoexpand" : true,
-        "name" : "Returns the human readable format of the given number of milliseconds.",
-        "snippet": "const formatDuration = ms => {\\n  if (ms < 0) ms = -ms;\\n  const time = {\\n    day: Math.floor(ms / 86400000),\\n    hour: Math.floor(ms / 3600000) % 24,\\n    minute: Math.floor(ms / 60000) % 60,\\n    second: Math.floor(ms / 1000) % 60,\\n    millisecond: Math.floor(ms) % 1000\\n  };\\n  return Object.entries(time)\\n    .filter(val => val[1] !== 0)\\n    .map(val => val[1] + ' ' + (val[1] !== 1 ? val[0] + 's' : val[0]))\\n    .join(', ');\\n};\\n",
-        "uid": "e92e0930-f1f1-11e7-8117-784f4386400a"
-    }
-}

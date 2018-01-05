@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "join",
+        "dontautoexpand" : true,
+        "name" : "Joins all elements of an array into a string and returns this string. Uses a separator and an end separator.",
+        "snippet": "const join = (arr, separator = ',', end = separator) =>\n  arr.reduce(\n    (acc, val, i) =>\n      i == arr.length - 2\n        ? acc + val + end\n        : i == arr.length - 1 ? acc + val : acc + val + separator,\n    ''\n  );\n",
+        "uid": "32072b0c-f1f3-11e7-acb0-784f4386400a"
+    }
+}

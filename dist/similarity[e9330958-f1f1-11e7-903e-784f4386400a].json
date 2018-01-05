@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "similarity",
-        "dontautoexpand" : true,
-        "name" : "Returns an array of elements that appear in both arrays.",
-        "snippet": "const similarity = (arr, values) => arr.filter(v => values.includes(v));\\n",
-        "uid": "e9330958-f1f1-11e7-903e-784f4386400a"
-    }
-}

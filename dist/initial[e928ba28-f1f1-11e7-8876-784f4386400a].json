@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "initial",
-        "dontautoexpand" : true,
-        "name" : "Returns all the elements of an array except the last one.",
-        "snippet": "const initial = arr => arr.slice(0, -1);\\n",
-        "uid": "e928ba28-f1f1-11e7-8876-784f4386400a"
-    }
-}

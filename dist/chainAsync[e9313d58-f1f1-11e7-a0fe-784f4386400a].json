@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "chainAsync",
-        "dontautoexpand" : true,
-        "name" : "Chains asynchronous functions.",
-        "snippet": "const chainAsync = fns => {\\n  let curr = 0;\\n  const next = () => fns[curr++](next);\\n  next();\\n};\\n",
-        "uid": "e9313d58-f1f1-11e7-a0fe-784f4386400a"
-    }
-}

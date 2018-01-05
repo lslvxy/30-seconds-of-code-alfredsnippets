@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sample",
+        "dontautoexpand" : true,
+        "name" : "Returns a random element from an array.",
+        "snippet": "const sample = arr => arr[Math.floor(Math.random() * arr.length)];\n",
+        "uid": "31f5fcee-f1f3-11e7-a689-784f4386400a"
+    }
+}

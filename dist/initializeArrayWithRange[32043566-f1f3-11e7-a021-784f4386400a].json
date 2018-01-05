@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "initializeArrayWithRange",
+        "dontautoexpand" : true,
+        "name" : "Initializes an array containing the numbers in the specified range where `start` and `end` are inclusive with there common difference `step`.",
+        "snippet": "const initializeArrayWithRange = (end, start = 0, step = 1) =>\n  Array.from({ length: Math.ceil((end + 1 - start) / step) }).map((v, i) => i * step + start);\n",
+        "uid": "32043566-f1f3-11e7-a021-784f4386400a"
+    }
+}

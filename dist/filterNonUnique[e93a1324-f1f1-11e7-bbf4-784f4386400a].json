@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "filterNonUnique",
-        "dontautoexpand" : true,
-        "name" : "Filters out the non-unique values in an array.",
-        "snippet": "const filterNonUnique = arr => arr.filter(i => arr.indexOf(i) === arr.lastIndexOf(i));\\n",
-        "uid": "e93a1324-f1f1-11e7-bbf4-784f4386400a"
-    }
-}

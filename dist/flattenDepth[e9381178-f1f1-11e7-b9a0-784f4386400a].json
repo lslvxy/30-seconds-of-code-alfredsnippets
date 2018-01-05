@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "flattenDepth",
-        "dontautoexpand" : true,
-        "name" : "Flattens an array up to the specified depth.",
-        "snippet": "const flattenDepth = (arr, depth = 1) =>\\n  depth != 1\\n    ? arr.reduce((a, v) => a.concat(Array.isArray(v) ? flattenDepth(v, depth - 1) : v), [])\\n    : arr.reduce((a, v) => a.concat(v), []);\\n",
-        "uid": "e9381178-f1f1-11e7-b9a0-784f4386400a"
-    }
-}

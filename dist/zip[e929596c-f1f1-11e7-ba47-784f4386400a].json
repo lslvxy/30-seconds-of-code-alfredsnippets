@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "zip",
-        "dontautoexpand" : true,
-        "name" : "Creates an array of elements, grouped based on the position in the original arrays.",
-        "snippet": "const zip = (...arrays) => {\\n  const maxLength = Math.max(...arrays.map(x => x.length));\\n  return Array.from({ length: maxLength }).map((_, i) => {\\n    return Array.from({ length: arrays.length }, (_, k) => arrays[k][i]);\\n  });\\n};\\n",
-        "uid": "e929596c-f1f1-11e7-ba47-784f4386400a"
-    }
-}

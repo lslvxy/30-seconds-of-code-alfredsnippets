@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "speechSynthesis",
+        "dontautoexpand" : true,
+        "name" : "Performs speech synthesis (experimental).",
+        "snippet": "const speechSynthesis = message => {\n  const msg = new SpeechSynthesisUtterance(message);\n  msg.voice = window.speechSynthesis.getVoices()[0];\n  window.speechSynthesis.speak(msg);\n};\n",
+        "uid": "3206a618-f1f3-11e7-8997-784f4386400a"
+    }
+}

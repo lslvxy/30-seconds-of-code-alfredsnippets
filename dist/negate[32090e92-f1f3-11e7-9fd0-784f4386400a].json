@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "negate",
+        "dontautoexpand" : true,
+        "name" : "Negates a predicate function.",
+        "snippet": "const negate = func => (...args) => !func(...args);\n",
+        "uid": "32090e92-f1f3-11e7-9fd0-784f4386400a"
+    }
+}

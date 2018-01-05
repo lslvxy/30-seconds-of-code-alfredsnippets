@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isSymbol",
+        "dontautoexpand" : true,
+        "name" : "Checks if the given argument is a symbol.",
+        "snippet": "const isSymbol = val => typeof val === 'symbol';\n",
+        "uid": "31f48940-f1f3-11e7-969c-784f4386400a"
+    }
+}

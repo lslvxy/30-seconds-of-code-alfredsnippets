@@ -45,7 +45,7 @@ for filename in os.listdir("./30-seconds-of-code/snippets"):
     output.write('        "keyword" : "' + keyword.replace("\n","") + '",\n')
     output.write('        "dontautoexpand" : true,\n' )
     output.write('        "name" : "' + title.replace("\n","") + '",\n')
-    output.write('        "snippet": "' + content.replace("\n","").replace('"','\\"').replace('\\','\\\\')+ '",\n') 
+    output.write('        "snippet": "' + content.replace("\n","").replace('"','\\"')+ '",\n') 
     output.write('        "uid": "' + uuidstr+ '"\n') 
     output.write('    }\n');
     output.write('}\n');

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "repeatString",
-        "dontautoexpand" : true,
-        "name" : "Repeats a string n times using `String.repeat()`",
-        "snippet": "const repeatString = (str = '', num = 2) => {\\n  return num >= 0 ? str.repeat(num) : str;\\n};\\n",
-        "uid": "e93aa686-f1f1-11e7-a040-784f4386400a"
-    }
-}

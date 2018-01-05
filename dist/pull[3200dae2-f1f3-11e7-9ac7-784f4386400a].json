@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "pull",
+        "dontautoexpand" : true,
+        "name" : "Mutates the original array to filter out the values specified.",
+        "snippet": "const pull = (arr, ...args) => {\n  let argState = Array.isArray(args[0]) ? args[0] : args;\n  let pulled = arr.filter((v, i) => !argState.includes(v));\n  arr.length = 0;\n  pulled.forEach(v => arr.push(v));\n};\n",
+        "uid": "3200dae2-f1f3-11e7-9ac7-784f4386400a"
+    }
+}

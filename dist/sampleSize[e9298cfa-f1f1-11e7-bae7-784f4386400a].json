@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "sampleSize",
-        "dontautoexpand" : true,
-        "name" : "Gets `n` random elements at unique keys from `array` up to the size of `array`.",
-        "snippet": "const sampleSize = ([...arr], n = 1) => {\\n  let m = arr.length;\\n  while (m) {\\n    const i = Math.floor(Math.random() * m--);\\n    [arr[m], arr[i]] = [arr[i], arr[m]];\\n  }\\n  return arr.slice(0, n);\\n};\\n",
-        "uid": "e9298cfa-f1f1-11e7-bae7-784f4386400a"
-    }
-}

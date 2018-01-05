@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "inRange",
-        "dontautoexpand" : true,
-        "name" : "Checks if the given number falls within the given range.",
-        "snippet": "const inRange = (n, start, end = null) => {\\n  if (end && start > end) end = [start, (start = end)][0];\\n  return end == null ? n >= 0 && n < start : n >= start && n < end;\\n};\\n",
-        "uid": "e9315b58-f1f1-11e7-8727-784f4386400a"
-    }
-}

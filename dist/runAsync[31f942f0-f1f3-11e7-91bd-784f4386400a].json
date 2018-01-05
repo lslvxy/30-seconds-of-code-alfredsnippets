@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "runAsync",
+        "dontautoexpand" : true,
+        "name" : "Runs a function in a separate thread by using a [Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers), allowing long running functions to not block the UI.",
+        "snippet": "const runAsync = fn => {\n  const blob = `var fn = ${fn.toString()}; postMessage(fn());`;\n  const worker = new Worker(\n    URL.createObjectURL(new Blob([blob]), {\n      type: 'application/javascript; charset=utf-8'\n    })\n  );\n  return new Promise((res, rej) => {\n    worker.onmessage = ({ data }) => {\n      res(data), worker.terminate();\n    };\n    worker.onerror = err => {\n      rej(err), worker.terminate();\n    };\n  });\n};\n",
+        "uid": "31f942f0-f1f3-11e7-91bd-784f4386400a"
+    }
+}

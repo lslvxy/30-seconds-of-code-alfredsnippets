@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "factors",
-        "dontautoexpand" : true,
-        "name" : "Returns the array of factors of the given `num`. ",
-        "snippet": "const factors = (num, primes = false) => {\\n  const isPrime = num => {\\n    const boundary = Math.floor(Math.sqrt(num));\\n    for (var i = 2; i <= boundary; i++) if (num % i === 0) return false;\\n    return num >= 2;\\n  };\\n  const isNeg = num < 0;\\n  num = isNeg ? -num : num;\\n  let array = Array.from({ length: num - 1 })\\n    .map((val, i) => (num % (i + 2) === 0 ? i + 2 : false))\\n    .filter(val => val);\\n  if (isNeg)\\n    array = array.reduce((acc, val) => {\\n      acc.push(val);\\n      acc.push(-val);\\n      return acc;\\n    }, []);\\n  return primes ? array.filter(isPrime) : array;\\n};\\n",
-        "uid": "e9324914-f1f1-11e7-b358-784f4386400a"
-    }
-}

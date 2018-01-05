@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isArmstrongNumber",
+        "dontautoexpand" : true,
+        "name" : "Checks if the given number is an Armstrong number or not.",
+        "snippet": "const isArmstrongNumber = digits =>\n  (arr => arr.reduce((a, d) => a + parseInt(d) ** arr.length, 0) == digits)(\n    (digits + '').split('')\n  );\n",
+        "uid": "32046c8c-f1f3-11e7-8e3c-784f4386400a"
+    }
+}

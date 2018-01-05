@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "bottomVisible",
-        "dontautoexpand" : true,
-        "name" : "Returns `true` if the bottom of the page is visible, `false` otherwise.",
-        "snippet": "const bottomVisible = () =>\\n  document.documentElement.clientHeight + window.scrollY >=\\n  (document.documentElement.scrollHeight || document.documentElement.clientHeight);\\n",
-        "uid": "e925ebcc-f1f1-11e7-8068-784f4386400a"
-    }
-}

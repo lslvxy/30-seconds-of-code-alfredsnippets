@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "compact",
+        "dontautoexpand" : true,
+        "name" : "Removes falsey values from an array.",
+        "snippet": "const compact = arr => arr.filter(Boolean);\n",
+        "uid": "320683d4-f1f3-11e7-aeeb-784f4386400a"
+    }
+}

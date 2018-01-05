@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "standardDeviation",
-        "dontautoexpand" : true,
-        "name" : "Returns the standard deviation of an array of numbers.",
-        "snippet": "const standardDeviation = (arr, usePopulation = false) => {\\n  const mean = arr.reduce((acc, val) => acc + val, 0) / arr.length;\\n  return Math.sqrt(\\n    arr.reduce((acc, val) => acc.concat((val - mean) ** 2), []).reduce((acc, val) => acc + val, 0) /\\n      (arr.length - (usePopulation ? 0 : 1))\\n  );\\n};\\n",
-        "uid": "e93570d0-f1f1-11e7-bd79-784f4386400a"
-    }
-}

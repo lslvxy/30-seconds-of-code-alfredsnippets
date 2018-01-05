@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "getStyle",
+        "dontautoexpand" : true,
+        "name" : "Returns the value of a CSS rule for the specified element.",
+        "snippet": "const getStyle = (el, ruleName) => getComputedStyle(el)[ruleName];\n",
+        "uid": "3208f3b4-f1f3-11e7-bdc9-784f4386400a"
+    }
+}

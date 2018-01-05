@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "maxN",
+        "dontautoexpand" : true,
+        "name" : "Returns the `n` maximum elements from the provided array. If `n` is greater than or equal to the provided array's length, then return the original array(sorted in descending order).",
+        "snippet": "const maxN = (arr, n = 1) => [...arr].sort((a, b) => b - a).slice(0, n);\n",
+        "uid": "31fb7162-f1f3-11e7-ac9c-784f4386400a"
+    }
+}

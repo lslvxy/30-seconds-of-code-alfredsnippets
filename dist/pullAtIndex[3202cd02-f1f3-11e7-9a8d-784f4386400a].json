@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "pullAtIndex",
+        "dontautoexpand" : true,
+        "name" : "Mutates the original array to filter out the values at the specified indexes.",
+        "snippet": "const pullAtIndex = (arr, pullArr) => {\n  let removed = [];\n  let pulled = arr\n    .map((v, i) => (pullArr.includes(i) ? removed.push(v) : v))\n    .filter((v, i) => !pullArr.includes(i));\n  arr.length = 0;\n  pulled.forEach(v => arr.push(v));\n  return removed;\n};\n",
+        "uid": "3202cd02-f1f3-11e7-9a8d-784f4386400a"
+    }
+}

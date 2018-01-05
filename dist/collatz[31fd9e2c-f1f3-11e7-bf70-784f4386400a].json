@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "collatz",
+        "dontautoexpand" : true,
+        "name" : "Applies the Collatz algorithm.",
+        "snippet": "const collatz = n => (n % 2 == 0 ? n / 2 : 3 * n + 1);\n",
+        "uid": "31fd9e2c-f1f3-11e7-bf70-784f4386400a"
+    }
+}

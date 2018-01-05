@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "unescapeHTML",
+        "dontautoexpand" : true,
+        "name" : "Unescapes escaped HTML characters.",
+        "snippet": "const unescapeHTML = str =>\n  str.replace(\n    /&amp;|&lt;|&gt;|&#39;|&quot;/g,\n    tag =>\n      ({\n        '&amp;': '&',\n        '&lt;': '<',\n        '&gt;': '>',\n        '&#39;': \"'\",\n        '&quot;': '\"'\n      }[tag] || tag)\n  );\n",
+        "uid": "31fd0bba-f1f3-11e7-ba80-784f4386400a"
+    }
+}
