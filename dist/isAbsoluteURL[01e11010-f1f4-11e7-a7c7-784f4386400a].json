@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "isAbsoluteURL",
-        "dontautoexpand" : true,
-        "name" : "Returns `true` if the given string is an absolute URL, `false` otherwise.",
-        "snippet": "const isAbsoluteURL = str => /^[a-z][a-z0-9+.-]*:/.test(str);\n",
-        "uid": "01e11010-f1f4-11e7-a7c7-784f4386400a"
-    }
-}

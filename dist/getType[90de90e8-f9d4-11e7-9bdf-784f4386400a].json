@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "getType",
+        "dontautoexpand" : true,
+        "name" : "Returns the native type of a value.",
+        "snippet": "const getType = v =>\n  v === undefined ? 'undefined' : v === null ? 'null' : v.constructor.name.toLowerCase();\n",
+        "uid": "90de90e8-f9d4-11e7-9bdf-784f4386400a"
+    }
+}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "take",
-        "dontautoexpand" : true,
-        "name" : "Returns an array with n elements removed from the beginning.",
-        "snippet": "const take = (arr, n = 1) => arr.slice(0, n);\n",
-        "uid": "01cec824-f1f4-11e7-8c14-784f4386400a"
-    }
-}

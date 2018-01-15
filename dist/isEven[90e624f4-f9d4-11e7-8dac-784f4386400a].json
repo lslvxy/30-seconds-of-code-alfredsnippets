@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isEven",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the given number is even, `false` otherwise.",
+        "snippet": "const isEven = num => num % 2 === 0;\n",
+        "uid": "90e624f4-f9d4-11e7-8dac-784f4386400a"
+    }
+}

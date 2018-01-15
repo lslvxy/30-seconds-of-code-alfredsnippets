@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "defer",
+        "dontautoexpand" : true,
+        "name" : "Defers invoking a function until the current call stack has cleared.",
+        "snippet": "const defer = (fn, ...args) => setTimeout(fn, 1, ...args);\n",
+        "uid": "90d9a4ac-f9d4-11e7-b557-784f4386400a"
+    }
+}

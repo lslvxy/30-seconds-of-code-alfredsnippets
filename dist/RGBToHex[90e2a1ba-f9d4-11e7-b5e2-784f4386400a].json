@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "RGBToHex",
+        "dontautoexpand" : true,
+        "name" : "Converts the values of RGB components to a color code.",
+        "snippet": "const RGBToHex = (r, g, b) => ((r << 16) + (g << 8) + b).toString(16).padStart(6, '0');\n",
+        "uid": "90e2a1ba-f9d4-11e7-b5e2-784f4386400a"
+    }
+}

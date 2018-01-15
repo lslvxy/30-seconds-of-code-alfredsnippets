@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "takeRight",
-        "dontautoexpand" : true,
-        "name" : "Returns an array with n elements removed from the end.",
-        "snippet": "const takeRight = (arr, n = 1) => arr.slice(arr.length - n, arr.length);\n",
-        "uid": "01d1c358-f1f4-11e7-a8e8-784f4386400a"
-    }
-}

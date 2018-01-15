@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isUpperCase",
+        "dontautoexpand" : true,
+        "name" : "Checks if a string is upper case.",
+        "snippet": "const isUpperCase = str => str === str.toUpperCase();\n",
+        "uid": "90e2acf0-f9d4-11e7-b26f-784f4386400a"
+    }
+}

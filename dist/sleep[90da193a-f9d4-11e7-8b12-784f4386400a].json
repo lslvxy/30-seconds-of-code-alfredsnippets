@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sleep",
+        "dontautoexpand" : true,
+        "name" : "Delays the execution of an asynchronous function.",
+        "snippet": "const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));\n",
+        "uid": "90da193a-f9d4-11e7-8b12-784f4386400a"
+    }
+}

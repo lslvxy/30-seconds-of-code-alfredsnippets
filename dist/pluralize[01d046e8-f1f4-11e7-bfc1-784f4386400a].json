@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "pluralize",
-        "dontautoexpand" : true,
-        "name" : "Returns the singular or plural form of the word based on the input number. If the first argument is an `object`, it will use a closure by returning a function that can auto-pluralize words that don't simply end in `s` if the supplied dictionary contains the word.",
-        "snippet": "const pluralize = (val, word, plural = word + 's') => {\n  const _pluralize = (num, word, plural = word + 's') =>\n    [1, -1].includes(Number(num)) ? word : plural;\n  if (typeof val === 'object') return (num, word) => _pluralize(num, word, val[word]);\n  return _pluralize(val, word, plural);\n};\n",
-        "uid": "01d046e8-f1f4-11e7-bfc1-784f4386400a"
-    }
-}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sortCharactersInString",
+        "dontautoexpand" : true,
+        "name" : "Alphabetically sorts the characters in a string.",
+        "snippet": "const sortCharactersInString = str => [...str].sort((a, b) => a.localeCompare(b)).join('');\n",
+        "uid": "90dacc38-f9d4-11e7-b825-784f4386400a"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "copyToClipboard",
+        "dontautoexpand" : true,
+        "name" : "Copy a string to the clipboard. Only works as a result of user action (i.e. inside a `click` event listener).",
+        "snippet": "const copyToClipboard = str => {\n  const el = document.createElement('textarea');\n  el.value = str;\n  el.setAttribute('readonly', '');\n  el.style.position = 'absolute';\n  el.style.left = '-9999px';\n  document.body.appendChild(el);\n  const selected =\n    document.getSelection().rangeCount > 0 ? document.getSelection().getRangeAt(0) : false;\n  el.select();\n  document.execCommand('copy');\n  document.body.removeChild(el);\n  if (selected) {\n    document.getSelection().removeAllRanges();\n    document.getSelection().addRange(selected);\n  }\n};\n",
+        "uid": "90e5f608-f9d4-11e7-b599-784f4386400a"
+    }
+}

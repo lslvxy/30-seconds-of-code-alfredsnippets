@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "functionName",
-        "dontautoexpand" : true,
-        "name" : "Logs the name of a function.",
-        "snippet": "const functionName = fn => (console.debug(fn.name), fn);\n",
-        "uid": "01d82afe-f1f4-11e7-b614-784f4386400a"
-    }
-}

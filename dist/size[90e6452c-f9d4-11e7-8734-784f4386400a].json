@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "size",
+        "dontautoexpand" : true,
+        "name" : "Get size of arrays, objects or strings.",
+        "snippet": "const size = val =>\n  Array.isArray(val)\n    ? val.length\n    : val && typeof val === 'object'\n      ? val.size || val.length || Object.keys(val).length\n      : typeof val === 'string' ? new Blob([val]).size : 0;\n",
+        "uid": "90e6452c-f9d4-11e7-8734-784f4386400a"
+    }
+}

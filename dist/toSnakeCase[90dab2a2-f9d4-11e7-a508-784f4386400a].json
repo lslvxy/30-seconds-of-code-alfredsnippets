@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "toSnakeCase",
+        "dontautoexpand" : true,
+        "name" : "Converts a string to snake case.",
+        "snippet": "const toSnakeCase = str =>\n  str &&\n  str\n    .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)\n    .map(x => x.toLowerCase())\n    .join('_');\n",
+        "uid": "90dab2a2-f9d4-11e7-a508-784f4386400a"
+    }
+}

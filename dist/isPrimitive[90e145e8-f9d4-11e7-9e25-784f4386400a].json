@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isPrimitive",
+        "dontautoexpand" : true,
+        "name" : "Returns a boolean determining if the passed value is primitive or not.",
+        "snippet": "const isPrimitive = val => !['object', 'function'].includes(typeof val) || val === null;\n",
+        "uid": "90e145e8-f9d4-11e7-9e25-784f4386400a"
+    }
+}

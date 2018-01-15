@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "initializeArrayWithValues",
+        "dontautoexpand" : true,
+        "name" : "Initializes and fills an array with the specified values.",
+        "snippet": "const initializeArrayWithValues = (n, val = 0) => Array(n).fill(val);\n",
+        "uid": "90e0e8d4-f9d4-11e7-a491-784f4386400a"
+    }
+}

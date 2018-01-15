@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "distinctValuesOfArray",
+        "dontautoexpand" : true,
+        "name" : "Returns all the distinct values of an array.",
+        "snippet": "const distinctValuesOfArray = arr => [...new Set(arr)];\n",
+        "uid": "90e2f586-f9d4-11e7-9779-784f4386400a"
+    }
+}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "powerset",
-        "dontautoexpand" : true,
-        "name" : "Returns the powerset of a given array of numbers.",
-        "snippet": "const powerset = arr => arr.reduce((a, v) => a.concat(a.map(r => [v].concat(r))), [[]]);\n",
-        "uid": "01ce688c-f1f4-11e7-8cb9-784f4386400a"
-    }
-}

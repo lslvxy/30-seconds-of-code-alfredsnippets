@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "httpGet",
+        "dontautoexpand" : true,
+        "name" : "Makes a `GET` request to the passed URL.",
+        "snippet": "const httpGet = (url, callback, err = console.error) => {\n  const request = new XMLHttpRequest();\n  request.open('GET', url, true);\n  request.onload = () => callback(request.responseText);\n  request.onerror = () => err(request);\n  request.send();\n};\n",
+        "uid": "90e3a1f0-f9d4-11e7-9dbc-784f4386400a"
+    }
+}

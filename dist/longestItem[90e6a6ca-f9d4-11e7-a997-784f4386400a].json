@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "longestItem",
+        "dontautoexpand" : true,
+        "name" : "Takes any number of iterable objects or objects with a `length` property and returns the longest one.",
+        "snippet": "const longestItem = (...vals) => [...vals].sort((a, b) => b.length - a.length)[0];\n",
+        "uid": "90e6a6ca-f9d4-11e7-a997-784f4386400a"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "createEventHub",
+        "dontautoexpand" : true,
+        "name" : "Creates a pub/sub ([publish–subscribe](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)) event hub with `emit`, `on`, and `off` methods.",
+        "snippet": "const createEventHub = () => ({\n  hub: Object.create(null),\n  emit(event, data) {\n    (this.hub[event] || []).forEach(handler => handler(data));\n  },\n  on(event, handler) {\n    if (!this.hub[event]) this.hub[event] = [];\n    this.hub[event].push(handler);\n  },\n  off(event, handler) {\n    const i = (this.hub[event] || []).findIndex(h => h === handler);\n    if (i > -1) this.hub[event].splice(i, 1);\n  }\n});\n",
+        "uid": "90e1ccae-f9d4-11e7-abbc-784f4386400a"
+    }
+}

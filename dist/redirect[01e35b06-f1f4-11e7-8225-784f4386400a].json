@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "redirect",
-        "dontautoexpand" : true,
-        "name" : "Redirects to a specified URL.",
-        "snippet": "const redirect = (url, asLink = true) =>\n  asLink ? (window.location.href = url) : window.location.replace(url);\n",
-        "uid": "01e35b06-f1f4-11e7-8225-784f4386400a"
-    }
-}

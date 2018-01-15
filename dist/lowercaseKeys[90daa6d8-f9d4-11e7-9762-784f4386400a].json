@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "lowercaseKeys",
+        "dontautoexpand" : true,
+        "name" : "Creates a new object from the specified object, where all the keys are in lowercase.",
+        "snippet": "const lowercaseKeys = obj =>\n  Object.keys(obj).reduce((acc, key) => {\n    acc[key.toLowerCase()] = obj[key];\n    return acc;\n  }, {});\n",
+        "uid": "90daa6d8-f9d4-11e7-9762-784f4386400a"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "pipeFunctions",
+        "dontautoexpand" : true,
+        "name" : "Performs left-to-right function composition.",
+        "snippet": "const pipeFunctions = (...fns) => fns.reduce((f, g) => (...args) => g(f(...args)));\n",
+        "uid": "90d9f9c0-f9d4-11e7-a0c4-784f4386400a"
+    }
+}

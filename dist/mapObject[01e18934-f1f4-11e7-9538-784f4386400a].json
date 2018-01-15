@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "mapObject",
-        "dontautoexpand" : true,
-        "name" : "Maps the values of an array to an object using a function, where the key-value pairs consist of the original value as the key and the mapped value.",
-        "snippet": "const mapObject = (arr, fn) =>\n  (a => (\n    (a = [arr, arr.map(fn)]), a[0].reduce((acc, val, ind) => ((acc[val] = a[1][ind]), acc), {})\n  ))();\n",
-        "uid": "01e18934-f1f4-11e7-9538-784f4386400a"
-    }
-}

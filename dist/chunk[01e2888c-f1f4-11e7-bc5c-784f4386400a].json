@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "chunk",
-        "dontautoexpand" : true,
-        "name" : "Chunks an array into smaller arrays of a specified size.",
-        "snippet": "const chunk = (arr, size) =>\n  Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>\n    arr.slice(i * size, i * size + size)\n  );\n",
-        "uid": "01e2888c-f1f4-11e7-bc5c-784f4386400a"
-    }
-}

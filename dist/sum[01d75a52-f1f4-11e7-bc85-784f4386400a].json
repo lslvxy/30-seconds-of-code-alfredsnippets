@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "sum",
-        "dontautoexpand" : true,
-        "name" : "Returns the sum of two or more numbers/arrays.",
-        "snippet": "const sum = (...arr) => [].concat(...arr).reduce((acc, val) => acc + val, 0);\n",
-        "uid": "01d75a52-f1f4-11e7-bc85-784f4386400a"
-    }
-}

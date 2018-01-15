@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "dropElements",
+        "dontautoexpand" : true,
+        "name" : "Removes elements in an array until the passed function returns `true`. Returns the remaining elements in the array.",
+        "snippet": "const dropElements = (arr, func) => {\n  while (arr.length > 0 && !func(arr[0])) arr = arr.slice(1);\n  return arr;\n};\n",
+        "uid": "90dc4e46-f9d4-11e7-a2d7-784f4386400a"
+    }
+}

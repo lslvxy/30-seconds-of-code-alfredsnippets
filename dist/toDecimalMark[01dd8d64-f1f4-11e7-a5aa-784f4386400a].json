@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "toDecimalMark",
-        "dontautoexpand" : true,
-        "name" : "Use `toLocaleString()` to convert a float-point arithmetic to the [Decimal mark](https://en.wikipedia.org/wiki/Decimal_mark) form. It makes a comma separated string from a number.",
-        "snippet": "",
-        "uid": "01dd8d64-f1f4-11e7-a5aa-784f4386400a"
-    }
-}

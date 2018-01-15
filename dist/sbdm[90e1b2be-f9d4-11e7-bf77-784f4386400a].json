@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sbdm",
+        "dontautoexpand" : true,
+        "name" : "Hashes the input string into a whole number.",
+        "snippet": "const sdbm = str => {\n  let arr = str.split('');\n  return arr.reduce(\n    (hashCode, currentVal) =>\n      (hashCode = currentVal.charCodeAt(0) + (hashCode << 6) + (hashCode << 16) - hashCode),\n    0\n  );\n};\n",
+        "uid": "90e1b2be-f9d4-11e7-bf77-784f4386400a"
+    }
+}

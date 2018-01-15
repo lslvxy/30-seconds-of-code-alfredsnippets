@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "once",
-        "dontautoexpand" : true,
-        "name" : "Ensures a function is called only once.",
-        "snippet": "const once = fn => {\n  let called = false;\n  return function(...args) {\n    if (called) return;\n    called = true;\n    return fn.apply(this, args);\n  };\n};\n",
-        "uid": "01d12d80-f1f4-11e7-b61b-784f4386400a"
-    }
-}

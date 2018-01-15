@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "decapitalize",
+        "dontautoexpand" : true,
+        "name" : "Decapitalizes the first letter of a string.",
+        "snippet": "const decapitalize = ([first, ...rest], upperRest = false) =>\n  first.toLowerCase() + (upperRest ? rest.join('').toUpperCase() : rest.join(''));\n",
+        "uid": "90e6d1e2-f9d4-11e7-affb-784f4386400a"
+    }
+}

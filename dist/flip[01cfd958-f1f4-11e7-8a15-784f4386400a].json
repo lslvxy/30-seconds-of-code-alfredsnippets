@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "flip",
-        "dontautoexpand" : true,
-        "name" : "Flip takes a function as an argument, then makes the first argument the last",
-        "snippet": "const flip = fn => (...args) => fn(args.pop(), ...args);\n",
-        "uid": "01cfd958-f1f4-11e7-8a15-784f4386400a"
-    }
-}

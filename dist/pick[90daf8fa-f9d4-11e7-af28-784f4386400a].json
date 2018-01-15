@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "pick",
+        "dontautoexpand" : true,
+        "name" : "Picks the key-value pairs corresponding to the given keys from an object.",
+        "snippet": "const pick = (obj, arr) =>\n  arr.reduce((acc, curr) => (curr in obj && (acc[curr] = obj[curr]), acc), {});\n",
+        "uid": "90daf8fa-f9d4-11e7-af28-784f4386400a"
+    }
+}

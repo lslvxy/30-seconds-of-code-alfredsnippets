@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "spreadOver",
+        "dontautoexpand" : true,
+        "name" : "Takes a variadic function and returns a closure that accepts an array of arguments to map to the inputs of the function.",
+        "snippet": "const spreadOver = fn => argsArr => fn(...argsArr);\n",
+        "uid": "90e7aa52-f9d4-11e7-89fa-784f4386400a"
+    }
+}

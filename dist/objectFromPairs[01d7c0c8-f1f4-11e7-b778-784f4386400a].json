@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "objectFromPairs",
-        "dontautoexpand" : true,
-        "name" : "Creates an object from the given key-value pairs.",
-        "snippet": "const objectFromPairs = arr => arr.reduce((a, v) => ((a[v[0]] = v[1]), a), {});\n",
-        "uid": "01d7c0c8-f1f4-11e7-b778-784f4386400a"
-    }
-}

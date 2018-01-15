@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "getURLParameters",
+        "dontautoexpand" : true,
+        "name" : "Returns an object containing the parameters of the current URL.",
+        "snippet": "const getURLParameters = url =>\n  url\n    .match(/([^?=&]+)(=([^&]*))/g)\n    .reduce((a, v) => ((a[v.slice(0, v.indexOf('='))] = v.slice(v.indexOf('=') + 1)), a), {});\n",
+        "uid": "90e368e8-f9d4-11e7-8cf2-784f4386400a"
+    }
+}

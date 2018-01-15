@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "colorize",
+        "dontautoexpand" : true,
+        "name" : "Add special characters to text to print in color in the console (combined with `console.log()`).",
+        "snippet": "const colorize = (...args) => ({\n  black: `\x1b[30m${args.join(' ')}`,\n  red: `\x1b[31m${args.join(' ')}`,\n  green: `\x1b[32m${args.join(' ')}`,\n  yellow: `\x1b[33m${args.join(' ')}`,\n  blue: `\x1b[34m${args.join(' ')}`,\n  magenta: `\x1b[35m${args.join(' ')}`,\n  cyan: `\x1b[36m${args.join(' ')}`,\n  white: `\x1b[37m${args.join(' ')}`,\n  bgBlack: `\x1b[40m${args.join(' ')}\x1b[0m`,\n  bgRed: `\x1b[41m${args.join(' ')}\x1b[0m`,\n  bgGreen: `\x1b[42m${args.join(' ')}\x1b[0m`,\n  bgYellow: `\x1b[43m${args.join(' ')}\x1b[0m`,\n  bgBlue: `\x1b[44m${args.join(' ')}\x1b[0m`,\n  bgMagenta: `\x1b[45m${args.join(' ')}\x1b[0m`,\n  bgCyan: `\x1b[46m${args.join(' ')}\x1b[0m`,\n  bgWhite: `\x1b[47m${args.join(' ')}\x1b[0m`\n});\n",
+        "uid": "90e104cc-f9d4-11e7-8c38-784f4386400a"
+    }
+}
