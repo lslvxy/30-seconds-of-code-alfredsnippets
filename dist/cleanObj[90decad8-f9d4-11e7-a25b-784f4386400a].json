@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "cleanObj",
-        "dontautoexpand" : true,
-        "name" : "Removes any properties except the ones specified from a JSON object.",
-        "snippet": "const cleanObj = (obj, keysToKeep = [], childIndicator) => {\n  Object.keys(obj).forEach(key => {\n    if (key === childIndicator) {\n      cleanObj(obj[key], keysToKeep, childIndicator);\n    } else if (!keysToKeep.includes(key)) {\n      delete obj[key];\n    }\n  });\n  return obj;\n};\n",
-        "uid": "90decad8-f9d4-11e7-a25b-784f4386400a"
-    }
-}

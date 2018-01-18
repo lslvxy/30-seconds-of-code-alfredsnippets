@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "extendHex",
-        "dontautoexpand" : true,
-        "name" : "Extends a 3-digit color code to a 6-digit color code.",
-        "snippet": "const extendHex = shortHex =>\n  '#' +\n  shortHex\n    .slice(shortHex.startsWith('#') ? 1 : 0)\n    .split('')\n    .map(x => x + x)\n    .join('');\n",
-        "uid": "90dc5efe-f9d4-11e7-b162-784f4386400a"
-    }
-}

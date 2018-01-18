@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "elementIsVisibleInViewport",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the element specified is visible in the viewport, `false` otherwise.",
+        "snippet": "const elementIsVisibleInViewport = (el, partiallyVisible = false) => {\n  const { top, left, bottom, right } = el.getBoundingClientRect();\n  const { innerHeight, innerWidth } = window;\n  return partiallyVisible\n    ? ((top > 0 && top < innerHeight) || (bottom > 0 && bottom < innerHeight)) &&\n        ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))\n    : top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;\n};\n",
+        "uid": "55fe0a9e-fc18-11e7-97d6-784f4386400a"
+    }
+}

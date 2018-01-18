@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "forEachRight",
+        "dontautoexpand" : true,
+        "name" : "Executes a provided function once for each array element, starting from the array's last element.",
+        "snippet": "const forEachRight = (arr, callback) =>\n  arr\n    .slice(0)\n    .reverse()\n    .forEach(callback);\n",
+        "uid": "55f8da2e-fc18-11e7-9adc-784f4386400a"
+    }
+}

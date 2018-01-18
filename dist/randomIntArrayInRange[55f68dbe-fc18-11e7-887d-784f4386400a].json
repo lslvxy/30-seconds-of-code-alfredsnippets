@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "randomIntArrayInRange",
+        "dontautoexpand" : true,
+        "name" : "Returns an array of n random integers in the specified range.",
+        "snippet": "const randomIntArrayInRange = (min, max, n = 1) =>\n  Array.from({ length: n }, () => Math.floor(Math.random() * (max - min + 1)) + min);\n",
+        "uid": "55f68dbe-fc18-11e7-887d-784f4386400a"
+    }
+}

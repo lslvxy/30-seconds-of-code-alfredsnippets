@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "compose",
+        "dontautoexpand" : true,
+        "name" : "Performs right-to-left function composition.",
+        "snippet": "const compose = (...fns) => fns.reduce((f, g) => (...args) => f(g(...args)));\n",
+        "uid": "55fb6780-fc18-11e7-8e29-784f4386400a"
+    }
+}

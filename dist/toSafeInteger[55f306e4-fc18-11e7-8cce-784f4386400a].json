@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "toSafeInteger",
+        "dontautoexpand" : true,
+        "name" : "Converts a value to a safe integer.",
+        "snippet": "const toSafeInteger = num =>\n  Math.round(Math.max(Math.min(num, Number.MAX_SAFE_INTEGER), Number.MIN_SAFE_INTEGER));\n",
+        "uid": "55f306e4-fc18-11e7-8cce-784f4386400a"
+    }
+}

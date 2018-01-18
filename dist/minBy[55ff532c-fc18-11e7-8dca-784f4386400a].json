@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "minBy",
+        "dontautoexpand" : true,
+        "name" : "Returns the minimum value of an array, after mapping each element to a value using the provided function.",
+        "snippet": "const minBy = (arr, fn) => Math.min(...arr.map(typeof fn === 'function' ? fn : val => val[fn]));\n",
+        "uid": "55ff532c-fc18-11e7-8dca-784f4386400a"
+    }
+}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "differenceWith",
-        "dontautoexpand" : true,
-        "name" : "Filters out all values from an array for which the comparator function does not return `true`.",
-        "snippet": "const differenceWith = (arr, val, comp) => arr.filter(a => val.findIndex(b => comp(a, b)) === -1);\n",
-        "uid": "90d98ff8-f9d4-11e7-9831-784f4386400a"
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "fibonacci",
-        "dontautoexpand" : true,
-        "name" : "Generates an array, containing the Fibonacci sequence, up until the nth term.",
-        "snippet": "const fibonacci = n =>\n  Array.from({ length: n }).reduce(\n    (acc, val, i) => acc.concat(i > 1 ? acc[i - 1] + acc[i - 2] : i),\n    []\n  );\n",
-        "uid": "90dc69ba-f9d4-11e7-863f-784f4386400a"
-    }
-}

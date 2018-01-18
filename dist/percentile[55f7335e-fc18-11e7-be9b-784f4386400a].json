@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "percentile",
+        "dontautoexpand" : true,
+        "name" : "Uses the percentile formula to calculate how many numbers in the given array are less or equal to the given value.",
+        "snippet": "const percentile = (arr, val) =>\n  100 * arr.reduce((acc, v) => acc + (v < val ? 1 : 0) + (v === val ? 0.5 : 0), 0) / arr.length;\n",
+        "uid": "55f7335e-fc18-11e7-be9b-784f4386400a"
+    }
+}

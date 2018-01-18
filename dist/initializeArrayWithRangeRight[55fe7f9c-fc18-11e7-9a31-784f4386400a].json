@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "initializeArrayWithRangeRight",
+        "dontautoexpand" : true,
+        "name" : "Initializes an array containing the numbers in the specified range (in reverse) where `start` and `end` are inclusive with their common difference `step`.",
+        "snippet": "const initializeArrayWithRangeRight = (end, start = 0, step = 1) =>\n  Array.from({ length: Math.ceil((end + 1 - start) / step) }).map(\n    (v, i, arr) => (arr.length - i - 1) * step + start\n  );\n",
+        "uid": "55fe7f9c-fc18-11e7-9a31-784f4386400a"
+    }
+}

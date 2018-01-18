@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "isSorted",
-        "dontautoexpand" : true,
-        "name" : "Returns `1` if the array is sorted in ascending order, `-1` if it is sorted in descending order or `0` if it is not sorted.",
-        "snippet": "const isSorted = arr => {\n  const direction = arr[0] > arr[1] ? -1 : 1;\n  for (let [i, val] of arr.entries())\n    if (i === arr.length - 1) return direction;\n    else if ((val - arr[i + 1]) * direction > 0) return 0;\n};\n",
-        "uid": "90e3787e-f9d4-11e7-8ccd-784f4386400a"
-    }
-}

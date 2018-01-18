@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "without",
+        "dontautoexpand" : true,
+        "name" : "Filters out the elements of an array, that have one of the specified values.",
+        "snippet": "const without = (arr, ...args) => arr.filter(v => !args.includes(v));\n",
+        "uid": "55f62450-fc18-11e7-a7d4-784f4386400a"
+    }
+}

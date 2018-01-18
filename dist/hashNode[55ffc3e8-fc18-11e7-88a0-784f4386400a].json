@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "hashNode",
+        "dontautoexpand" : true,
+        "name" : "Creates a hash for a value using the [SHA-256](https://en.wikipedia.org/wiki/SHA-2) algorithm. Returns a promise.",
+        "snippet": "const crypto = require('crypto');\nconst hashNode = val =>\n  new Promise(resolve =>\n    setTimeout(\n      () =>\n        resolve(\n          crypto\n            .createHash('sha256')\n            .update(val)\n            .digest('hex')\n        ),\n      0\n    )\n  );\n",
+        "uid": "55ffc3e8-fc18-11e7-88a0-784f4386400a"
+    }
+}

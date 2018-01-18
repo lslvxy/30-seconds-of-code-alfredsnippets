@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "toOrdinalSuffix",
+        "dontautoexpand" : true,
+        "name" : "Adds an ordinal suffix to a number.",
+        "snippet": "const toOrdinalSuffix = num => {\n  const int = parseInt(num),\n    digits = [int % 10, int % 100],\n    ordinals = ['st', 'nd', 'rd', 'th'],\n    oPattern = [1, 2, 3, 4],\n    tPattern = [11, 12, 13, 14, 15, 16, 17, 18, 19];\n  return oPattern.includes(digits[0]) && !tPattern.includes(digits[1])\n    ? int + ordinals[digits[0] - 1]\n    : int + ordinals[3];\n};\n",
+        "uid": "55fdb72e-fc18-11e7-98a6-784f4386400a"
+    }
+}

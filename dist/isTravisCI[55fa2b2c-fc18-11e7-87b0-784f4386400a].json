@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isTravisCI",
+        "dontautoexpand" : true,
+        "name" : "Checks if the current environment is [Travis CI](https://travis-ci.org/).",
+        "snippet": "const isTravisCI = () => 'TRAVIS' in process.env && 'CI' in process.env;\n",
+        "uid": "55fa2b2c-fc18-11e7-87b0-784f4386400a"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "toggleClass",
+        "dontautoexpand" : true,
+        "name" : "Toggle a class for an element.",
+        "snippet": "const toggleClass = (el, className) => el.classList.toggle(className);\n",
+        "uid": "55f9e1e4-fc18-11e7-b2e5-784f4386400a"
+    }
+}

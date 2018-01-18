@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "reducedFilter",
+        "dontautoexpand" : true,
+        "name" : "Filter an array of objects based on a condition while also filtering out unspecified keys.",
+        "snippet": "const reducedFilter = (data, keys, fn) =>\n  data.filter(fn).map(el =>\n    keys.reduce((acc, key) => {\n      acc[key] = el[key];\n      return acc;\n    }, {})\n  );\n",
+        "uid": "55f7f74c-fc18-11e7-bde6-784f4386400a"
+    }
+}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "tomorrow",
-        "dontautoexpand" : true,
-        "name" : "Results in a string representation of tomorrow's date.",
-        "snippet": "const tomorrow = () => new Date(new Date().getTime() + 86400000).toISOString().split('T')[0];\n",
-        "uid": "90dea6be-f9d4-11e7-9b4e-784f4386400a"
-    }
-}

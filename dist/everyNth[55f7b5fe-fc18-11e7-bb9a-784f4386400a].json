@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "everyNth",
+        "dontautoexpand" : true,
+        "name" : "Returns every nth element in an array.",
+        "snippet": "const everyNth = (arr, nth) => arr.filter((e, i) => i % nth === nth - 1);\n",
+        "uid": "55f7b5fe-fc18-11e7-bb9a-784f4386400a"
+    }
+}

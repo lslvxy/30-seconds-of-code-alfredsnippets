@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "runPromisesInSeries",
+        "dontautoexpand" : true,
+        "name" : "Runs an array of promises in series.",
+        "snippet": "const runPromisesInSeries = ps => ps.reduce((p, next) => p.then(next), Promise.resolve());\n",
+        "uid": "55f9cf92-fc18-11e7-8f94-784f4386400a"
+    }
+}

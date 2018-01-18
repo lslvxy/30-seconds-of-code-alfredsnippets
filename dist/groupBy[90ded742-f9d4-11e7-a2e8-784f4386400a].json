@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "groupBy",
-        "dontautoexpand" : true,
-        "name" : "Groups the elements of an array based on the given function.",
-        "snippet": "const groupBy = (arr, fn) =>\n  arr.map(typeof fn === 'function' ? fn : val => val[fn]).reduce((acc, val, i) => {\n    acc[val] = (acc[val] || []).concat(arr[i]);\n    return acc;\n  }, {});\n",
-        "uid": "90ded742-f9d4-11e7-a2e8-784f4386400a"
-    }
-}

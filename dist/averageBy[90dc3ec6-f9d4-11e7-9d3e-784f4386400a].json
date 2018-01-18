@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "averageBy",
-        "dontautoexpand" : true,
-        "name" : "Returns the average of an array, after mapping each element to a value using the provided function.",
-        "snippet": "const averageBy = (arr, fn) =>\n  arr.map(typeof fn === 'function' ? fn : val => val[fn]).reduce((acc, val) => acc + val, 0) /\n  arr.length;\n",
-        "uid": "90dc3ec6-f9d4-11e7-9d3e-784f4386400a"
-    }
-}

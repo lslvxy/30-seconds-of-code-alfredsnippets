@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "nthElement",
+        "dontautoexpand" : true,
+        "name" : "Returns the nth element of an array.",
+        "snippet": "const nthElement = (arr, n = 0) => (n > 0 ? arr.slice(n, n + 1) : arr.slice(n))[0];\n",
+        "uid": "55f58388-fc18-11e7-8c84-784f4386400a"
+    }
+}

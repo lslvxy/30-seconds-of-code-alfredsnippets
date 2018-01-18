@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "URLJoin",
+        "dontautoexpand" : true,
+        "name" : "Joins all given URL segments together, then normalizes the resulting URL.",
+        "snippet": "const URLJoin = (...args) =>\n  args\n    .join('/')\n    .replace(/[\/]+/g, '/')\n    .replace(/^(.+):\//, '$1://')\n    .replace(/^file:/, 'file:/')\n    .replace(/\/(\?|&|#[^!])/g, '$1')\n    .replace(/\?/g, '&')\n    .replace('&', '?');\n",
+        "uid": "55f88600-fc18-11e7-938e-784f4386400a"
+    }
+}

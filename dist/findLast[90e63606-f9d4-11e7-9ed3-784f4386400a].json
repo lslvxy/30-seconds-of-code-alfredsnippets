@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "findLast",
-        "dontautoexpand" : true,
-        "name" : "Returns the last element for which the provided function returns a truthy value.",
-        "snippet": "const findLast = (arr, fn) => arr.filter(fn).slice(-1);\n",
-        "uid": "90e63606-f9d4-11e7-9ed3-784f4386400a"
-    }
-}

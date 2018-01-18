@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "serializeCookie",
-        "dontautoexpand" : true,
-        "name" : "Serialize a cookie name-value pair into a Set-Cookie header string.",
-        "snippet": "const serializeCookie = (name, val) => `${encodeURIComponent(name)}=${encodeURIComponent(val)}`;\n",
-        "uid": "90e6c0ba-f9d4-11e7-b3ca-784f4386400a"
-    }
-}

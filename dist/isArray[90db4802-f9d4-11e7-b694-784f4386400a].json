@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "isArray",
-        "dontautoexpand" : true,
-        "name" : "Checks if the given argument is an array.",
-        "snippet": "const isArray = val => Array.isArray(val);\n",
-        "uid": "90db4802-f9d4-11e7-b694-784f4386400a"
-    }
-}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "scrollToTop",
+        "dontautoexpand" : true,
+        "name" : "Smooth-scrolls to the top of the page.",
+        "snippet": "const scrollToTop = () => {\n  const c = document.documentElement.scrollTop || document.body.scrollTop;\n  if (c > 0) {\n    window.requestAnimationFrame(scrollToTop);\n    window.scrollTo(0, c - c / 8);\n  }\n};\n",
+        "uid": "55f78aac-fc18-11e7-848d-784f4386400a"
+    }
+}

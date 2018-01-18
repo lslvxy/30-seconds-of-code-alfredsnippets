@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "palindrome",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the given string is a palindrome, `false` otherwise.",
+        "snippet": "const palindrome = str => {\n  const s = str.toLowerCase().replace(/[\W_]/g, '');\n  return (\n    s ===\n    s\n      .split('')\n      .reverse()\n      .join('')\n  );\n};\n",
+        "uid": "55fce4a2-fc18-11e7-a13c-784f4386400a"
+    }
+}

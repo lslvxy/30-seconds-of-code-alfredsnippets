@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "isLowerCase",
-        "dontautoexpand" : true,
-        "name" : "Checks if a string is lower case.",
-        "snippet": "const isLowerCase = str => str === str.toLowerCase();\n",
-        "uid": "90e5e65e-f9d4-11e7-8124-784f4386400a"
-    }
-}

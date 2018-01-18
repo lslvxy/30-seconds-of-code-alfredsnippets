@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "symmetricDifference",
+        "dontautoexpand" : true,
+        "name" : "Returns the symmetric difference between two arrays.",
+        "snippet": "const symmetricDifference = (a, b) => {\n  const sA = new Set(a),\n    sB = new Set(b);\n  return [...a.filter(x => !sB.has(x)), ...b.filter(x => !sA.has(x))];\n};\n",
+        "uid": "55fb27f4-fc18-11e7-beca-784f4386400a"
+    }
+}
