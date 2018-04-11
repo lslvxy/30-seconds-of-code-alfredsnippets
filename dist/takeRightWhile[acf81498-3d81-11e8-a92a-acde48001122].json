@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "takeRightWhile",
+        "dontautoexpand" : true,
+        "name" : "Removes elements from the end of an array until the passed function returns `true`. Returns the removed elements.",
+        "snippet": "const takeRightWhile = (arr, func) => {\n  for (let i of arr.reverse().keys())\n    if (func(arr[i])) return arr.reverse().slice(arr.length - i, arr.length);\n  return arr;\n};\n",
+        "uid": "acf81498-3d81-11e8-a92a-acde48001122"
+    }
+}

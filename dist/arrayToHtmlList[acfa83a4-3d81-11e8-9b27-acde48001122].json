@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "arrayToHtmlList",
+        "dontautoexpand" : true,
+        "name" : "Converts the given array elements into `<li>` tags and appends them to the list of the given id.",
+        "snippet": "const arrayToHtmlList = (arr, listID) =>\n  arr.map(item => (document.querySelector('#' + listID).innerHTML += `<li>${item}</li>`));\n",
+        "uid": "acfa83a4-3d81-11e8-9b27-acde48001122"
+    }
+}

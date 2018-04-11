@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "byteSize",
+        "dontautoexpand" : true,
+        "name" : "Returns the length of a string in bytes.",
+        "snippet": "const byteSize = str => new Blob([str]).size;\n",
+        "uid": "acfa2ba2-3d81-11e8-9c49-acde48001122"
+    }
+}

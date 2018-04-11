@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "hashBrowser",
+        "dontautoexpand" : true,
+        "name" : "Creates a hash for a value using the [SHA-256](https://en.wikipedia.org/wiki/SHA-2) algorithm. Returns a promise.",
+        "snippet": "const hashBrowser = val =>\n  crypto.subtle.digest('SHA-256', new TextEncoder('utf-8').encode(val)).then(h => {\n    let hexes = [],\n      view = new DataView(h);\n    for (let i = 0; i < view.byteLength; i += 4)\n      hexes.push(('00000000' + view.getUint32(i).toString(16)).slice(-8));\n    return hexes.join('');\n  });\n",
+        "uid": "acffa26c-3d81-11e8-b059-acde48001122"
+    }
+}

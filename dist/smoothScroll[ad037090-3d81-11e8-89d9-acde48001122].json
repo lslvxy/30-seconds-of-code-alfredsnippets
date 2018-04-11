@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "smoothScroll",
+        "dontautoexpand" : true,
+        "name" : "Smoothly scrolls the element on which it's called into the visible area of the browser window.",
+        "snippet": "const smoothScroll = element =>\n  document.querySelector(element).scrollIntoView({\n    behavior: 'smooth'\n  });\n",
+        "uid": "ad037090-3d81-11e8-89d9-acde48001122"
+    }
+}

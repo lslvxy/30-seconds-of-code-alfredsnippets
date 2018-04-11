@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "stableSort",
+        "dontautoexpand" : true,
+        "name" : "Performs stable sorting of an array, preserving the initial indexes of items when their values are the same. ",
+        "snippet": "const stableSort = (arr, compare) =>\n  arr\n    .map((item, index) => ({ item, index }))\n    .sort((a, b) => compare(a.item, b.item) || a.index - b.index)\n    .map(({ item }) => item);\n",
+        "uid": "ad004034-3d81-11e8-aba6-acde48001122"
+    }
+}

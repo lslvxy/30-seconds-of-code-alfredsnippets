@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "remove",
-        "dontautoexpand" : true,
-        "name" : "Removes elements from an array for which the given function returns `false`.",
-        "snippet": "const remove = (arr, func) =>\n  Array.isArray(arr)\n    ? arr.filter(func).reduce((acc, val) => {\n        arr.splice(arr.indexOf(val), 1);\n        return acc.concat(val);\n      }, [])\n    : [];\n",
-        "uid": "56005346-fc18-11e7-aa99-784f4386400a"
-    }
-}

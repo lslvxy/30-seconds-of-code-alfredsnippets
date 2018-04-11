@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isAnagram",
+        "dontautoexpand" : true,
+        "name" : "Checks if a string is an anagram of another string (case-insensitive, ignores spaces, punctuation and special characters).",
+        "snippet": "const isAnagram = (str1, str2) => {\n  const normalize = str =>\n    str\n      .toLowerCase()\n      .replace(/[^a-z0-9]/gi, '')\n      .split('')\n      .sort()\n      .join('');\n  return normalize(str1) === normalize(str2);\n};\n",
+        "uid": "acf4ed18-3d81-11e8-8db6-acde48001122"
+    }
+}

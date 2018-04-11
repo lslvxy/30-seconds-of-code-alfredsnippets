@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "overArgs",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that invokes the provided function with its arguments transformed.",
+        "snippet": "const overArgs = (fn, transforms) => (...args) => fn(...args.map((val, i) => transforms[i](val)));\n",
+        "uid": "acf17822-3d81-11e8-b4d0-acde48001122"
+    }
+}

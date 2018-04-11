@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "maxBy",
-        "dontautoexpand" : true,
-        "name" : "Returns the maximum value of an array, after mapping each element to a value using the provided function.",
-        "snippet": "const maxBy = (arr, fn) => Math.max(...arr.map(typeof fn === 'function' ? fn : val => val[fn]));\n",
-        "uid": "55ffb8ba-fc18-11e7-b91b-784f4386400a"
-    }
-}

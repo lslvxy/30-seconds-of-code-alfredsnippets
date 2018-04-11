@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isPromiseLike",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if an object looks like a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), `false` otherwise.",
+        "snippet": "const isPromiseLike = obj =>\n  obj !== null &&\n  (typeof obj === 'object' || typeof obj === 'function') &&\n  typeof obj.then === 'function';\n",
+        "uid": "acf4dcc6-3d81-11e8-8470-acde48001122"
+    }
+}

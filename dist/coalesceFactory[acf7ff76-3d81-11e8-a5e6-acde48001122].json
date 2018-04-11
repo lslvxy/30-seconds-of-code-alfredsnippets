@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "coalesceFactory",
+        "dontautoexpand" : true,
+        "name" : "Returns a customized coalesce function that returns the first argument that returns `true` from the provided argument validation function.",
+        "snippet": "const coalesceFactory = valid => (...args) => args.find(valid);\n",
+        "uid": "acf7ff76-3d81-11e8-a5e6-acde48001122"
+    }
+}

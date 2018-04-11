@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "intersection",
+        "dontautoexpand" : true,
+        "name" : "Returns a list of elements that exist in both arrays.",
+        "snippet": "const intersection = (a, b) => {\n  const s = new Set(b);\n  return a.filter(x => s.has(x));\n};\n",
+        "uid": "acfa6e1e-3d81-11e8-85be-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "partial",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that invokes `fn` with `partials` prepended to the arguments it receives.",
+        "snippet": "const partial = (fn, ...partials) => (...args) => fn(...partials, ...args);\n",
+        "uid": "acf94fe8-3d81-11e8-83ea-acde48001122"
+    }
+}

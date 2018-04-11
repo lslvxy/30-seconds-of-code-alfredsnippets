@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "forOwnRight",
+        "dontautoexpand" : true,
+        "name" : "Iterates over all own properties of an object in reverse, running a callback for each one.",
+        "snippet": "const forOwnRight = (obj, fn) =>\n  Object.keys(obj)\n    .reverse()\n    .forEach(key => fn(obj[key], key, obj));\n",
+        "uid": "acfb1b34-3d81-11e8-87f4-acde48001122"
+    }
+}

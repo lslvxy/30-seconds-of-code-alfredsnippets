@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "unzip",
+        "dontautoexpand" : true,
+        "name" : "Creates an array of arrays, ungrouping the elements in an array produced by [zip](#zip).",
+        "snippet": "const unzip = arr =>\n  arr.reduce(\n    (acc, val) => (val.forEach((v, i) => acc[i].push(v)), acc),\n    Array.from({\n      length: Math.max(...arr.map(x => x.length))\n    }).map(x => [])\n  );\n",
+        "uid": "ad02bca4-3d81-11e8-a2a8-acde48001122"
+    }
+}

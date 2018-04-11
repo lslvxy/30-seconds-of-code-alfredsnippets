@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "bifurcate",
+        "dontautoexpand" : true,
+        "name" : "Splits values into two groups. If an element in `filter` is truthy, the corresponding element in the collection belongs to the first group; otherwise, it belongs to the second group.",
+        "snippet": "const bifurcate = (arr, filter) =>\n  arr.reduce((acc, val, i) => (acc[filter[i] ? 0 : 1].push(val), acc), [[], []]);\n",
+        "uid": "acfc23e4-3d81-11e8-997b-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "countBy",
+        "dontautoexpand" : true,
+        "name" : "Groups the elements of an array based on the given function and returns the count of elements in each group.",
+        "snippet": "const countBy = (arr, fn) =>\n  arr.map(typeof fn === 'function' ? fn : val => val[fn]).reduce((acc, val, i) => {\n    acc[val] = (acc[val] || 0) + 1;\n    return acc;\n  }, {});\n",
+        "uid": "acf4a77a-3d81-11e8-b53a-acde48001122"
+    }
+}

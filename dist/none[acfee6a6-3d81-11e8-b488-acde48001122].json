@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "none",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the provided predicate function returns `false` for all elements in a collection, `false` otherwise.",
+        "snippet": "const none = (arr, fn = Boolean) => !arr.some(fn);\n",
+        "uid": "acfee6a6-3d81-11e8-b488-acde48001122"
+    }
+}

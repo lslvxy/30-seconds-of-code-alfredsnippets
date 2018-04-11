@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "prefix",
+        "dontautoexpand" : true,
+        "name" : "Returns the prefixed version (if necessary) of a CSS property that the browser supports.",
+        "snippet": "const prefix = prop => {\n  const capitalizedProp = prop.charAt(0).toUpperCase() + prop.slice(1);\n  const prefixes = ['', 'webkit', 'moz', 'ms', 'o'];\n  const i = prefixes.findIndex(\n    prefix => typeof document.body.style[prefix ? prefix + capitalizedProp : prop] !== 'undefined'\n  );\n  return i !== -1 ? (i === 0 ? prop : prefixes[i] + capitalizedProp) : null;\n};\n",
+        "uid": "acfdcb18-3d81-11e8-ac83-acde48001122"
+    }
+}

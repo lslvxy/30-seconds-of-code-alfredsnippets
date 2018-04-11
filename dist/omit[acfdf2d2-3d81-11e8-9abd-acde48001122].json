@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "omit",
+        "dontautoexpand" : true,
+        "name" : "Omits the key-value pairs corresponding to the given keys from an object.",
+        "snippet": "const omit = (obj, arr) =>\n  Object.keys(obj)\n    .filter(k => !arr.includes(k))\n    .reduce((acc, key) => ((acc[key] = obj[key]), acc), {});\n",
+        "uid": "acfdf2d2-3d81-11e8-9abd-acde48001122"
+    }
+}

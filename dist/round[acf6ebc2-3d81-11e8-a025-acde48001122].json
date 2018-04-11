@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "round",
+        "dontautoexpand" : true,
+        "name" : "Rounds a number to a specified amount of digits.",
+        "snippet": "const round = (n, decimals = 0) => Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`);\n",
+        "uid": "acf6ebc2-3d81-11e8-a025-acde48001122"
+    }
+}

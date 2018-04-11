@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "merge",
+        "dontautoexpand" : true,
+        "name" : "Creates a new object from the combination of two or more objects.",
+        "snippet": "const merge = (...objs) =>\n  [...objs].reduce(\n    (acc, obj) =>\n      Object.keys(obj).reduce((a, k) => {\n        acc[k] = acc.hasOwnProperty(k) ? [].concat(acc[k]).concat(obj[k]) : obj[k];\n        return acc;\n      }, {}),\n    {}\n  );\n",
+        "uid": "acfe8f80-3d81-11e8-a528-acde48001122"
+    }
+}

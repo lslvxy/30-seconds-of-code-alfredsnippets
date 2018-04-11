@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "symmetricDifferenceBy",
+        "dontautoexpand" : true,
+        "name" : "Returns the symmetric difference between two arrays, after applying the provided function to each array element of both.",
+        "snippet": "const symmetricDifferenceBy = (a, b, fn) => {\n  const sA = new Set(a.map(v => fn(v))),\n    sB = new Set(b.map(v => fn(v)));\n  return [...a.filter(x => !sB.has(fn(x))), ...b.filter(x => !sA.has(fn(x)))];\n};\n",
+        "uid": "ad022cb4-3d81-11e8-b6a9-acde48001122"
+    }
+}

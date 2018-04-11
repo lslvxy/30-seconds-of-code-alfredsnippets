@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "any",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the provided predicate function returns `true` for at least one element in a collection, `false` otherwise.",
+        "snippet": "const any = (arr, fn = Boolean) => arr.some(fn);\n",
+        "uid": "acfae9b6-3d81-11e8-bc58-acde48001122"
+    }
+}

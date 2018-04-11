@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "pad",
+        "dontautoexpand" : true,
+        "name" : "Pads a string on both sides with the specified character, if it's shorter than the specified length.",
+        "snippet": "const pad = (str, length, char = ' ') =>\n  str.padStart((str.length + length) / 2, char).padEnd(length, char);\n",
+        "uid": "acf5b3d8-3d81-11e8-bcaf-acde48001122"
+    }
+}

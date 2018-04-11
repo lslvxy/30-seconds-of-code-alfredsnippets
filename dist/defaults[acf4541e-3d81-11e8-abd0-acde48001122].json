@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "defaults",
+        "dontautoexpand" : true,
+        "name" : "Assigns default values for all properties in an object that are `undefined`.",
+        "snippet": "const defaults = (obj, ...defs) => Object.assign({}, obj, ...defs.reverse(), obj);\n",
+        "uid": "acf4541e-3d81-11e8-abd0-acde48001122"
+    }
+}

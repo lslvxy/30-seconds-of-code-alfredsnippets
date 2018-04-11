@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isPrime",
+        "dontautoexpand" : true,
+        "name" : "Checks if the provided integer is a prime number.",
+        "snippet": "const isPrime = num => {\n  const boundary = Math.floor(Math.sqrt(num));\n  for (var i = 2; i <= boundary; i++) if (num % i === 0) return false;\n  return num >= 2;\n};\n",
+        "uid": "ad027a34-3d81-11e8-8d07-acde48001122"
+    }
+}

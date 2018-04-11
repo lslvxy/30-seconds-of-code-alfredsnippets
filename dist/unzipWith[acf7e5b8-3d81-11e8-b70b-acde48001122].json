@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "unzipWith",
+        "dontautoexpand" : true,
+        "name" : "Creates an array of elements, ungrouping the elements in an array produced by [zip](#zip) and applying the provided function.",
+        "snippet": "const unzipWith = (arr, fn) =>\n  arr\n    .reduce(\n      (acc, val) => (val.forEach((v, i) => acc[i].push(v)), acc),\n      Array.from({\n        length: Math.max(...arr.map(x => x.length))\n      }).map(x => [])\n    )\n    .map(val => fn(...val));\n",
+        "uid": "acf7e5b8-3d81-11e8-b70b-acde48001122"
+    }
+}

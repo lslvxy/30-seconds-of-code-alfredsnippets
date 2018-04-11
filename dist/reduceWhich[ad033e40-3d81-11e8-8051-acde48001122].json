@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "reduceWhich",
+        "dontautoexpand" : true,
+        "name" : "Returns the minimum/maximum value of an array, after applying the provided function to set comparing rule.",
+        "snippet": "const reduceWhich = (arr, comparator = (a, b) => a - b) =>\n  arr.reduce((a, b) => (comparator(a, b) >= 0 ? b : a));\n",
+        "uid": "ad033e40-3d81-11e8-8051-acde48001122"
+    }
+}

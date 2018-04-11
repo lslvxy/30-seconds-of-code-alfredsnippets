@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "createElement",
+        "dontautoexpand" : true,
+        "name" : "Creates an element from a string (without appending it to the document). ",
+        "snippet": "const createElement = str => {\n  const el = document.createElement('div');\n  el.innerHTML = str;\n  return el.firstElementChild;\n};\n",
+        "uid": "ad02ef62-3d81-11e8-9c4d-acde48001122"
+    }
+}

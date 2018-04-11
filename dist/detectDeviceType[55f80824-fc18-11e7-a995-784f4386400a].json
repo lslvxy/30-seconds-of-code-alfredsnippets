@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "detectDeviceType",
-        "dontautoexpand" : true,
-        "name" : "Detects wether the website is being opened in a mobile device or a desktop/laptop.",
-        "snippet": "const detectDeviceType = () =>\n  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)\n    ? 'Mobile'\n    : 'Desktop';\n",
-        "uid": "55f80824-fc18-11e7-a995-784f4386400a"
-    }
-}

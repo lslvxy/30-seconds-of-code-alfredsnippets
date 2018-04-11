@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "functions",
+        "dontautoexpand" : true,
+        "name" : "Returns an array of function property names from own (and optionally inherited) enumerable properties of an object.",
+        "snippet": "const functions = (obj, inherited = false) =>\n  (inherited\n    ? [...Object.keys(obj), ...Object.keys(Object.getPrototypeOf(obj))]\n    : Object.keys(obj)\n  ).filter(key => typeof obj[key] === 'function');\n",
+        "uid": "acfdda18-3d81-11e8-94ff-acde48001122"
+    }
+}

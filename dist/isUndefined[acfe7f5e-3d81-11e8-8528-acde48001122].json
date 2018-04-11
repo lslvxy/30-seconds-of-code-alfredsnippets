@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isUndefined",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the specified value is `undefined`, `false` otherwise.",
+        "snippet": "const isUndefined = val => val === undefined;\n",
+        "uid": "acfe7f5e-3d81-11e8-8528-acde48001122"
+    }
+}

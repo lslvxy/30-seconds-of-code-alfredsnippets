@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "on",
-        "dontautoexpand" : true,
-        "name" : "Adds an event listener to an element with the ability to use event delegation.",
-        "snippet": "const on = (el, evt, fn, opts = {}) => {\n  const delegatorFn = e => e.target.matches(opts.target) && fn.call(e.target, e);\n  el.addEventListener(evt, opts.target ? delegatorFn : fn, opts.options || false);\n  if (opts.target) return delegatorFn;\n};\n",
-        "uid": "55ffa80c-fc18-11e7-9b35-784f4386400a"
-    }
-}

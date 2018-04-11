@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "bifurcateBy",
+        "dontautoexpand" : true,
+        "name" : "Splits values into two groups according to a predicate function, which specifies which group an element in the input collection belongs to. If the predicate function returns a truthy value, the collection element belongs to the first group; otherwise, it belongs to the second group.",
+        "snippet": "const bifurcateBy = (arr, fn) =>\n  arr.reduce((acc, val, i) => (acc[fn(val, i) ? 0 : 1].push(val), acc), [[], []]);\n",
+        "uid": "acff5bcc-3d81-11e8-aa99-acde48001122"
+    }
+}

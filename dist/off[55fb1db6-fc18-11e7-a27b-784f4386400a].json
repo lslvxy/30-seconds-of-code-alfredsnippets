@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "off",
-        "dontautoexpand" : true,
-        "name" : "Removes an event listener from an element.",
-        "snippet": "const off = (el, evt, fn, opts = false) => el.removeEventListener(evt, fn, opts);\n",
-        "uid": "55fb1db6-fc18-11e7-a27b-784f4386400a"
-    }
-}

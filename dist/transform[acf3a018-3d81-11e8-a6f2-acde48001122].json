@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "transform",
+        "dontautoexpand" : true,
+        "name" : "Applies a function against an accumulator and each key in the object (from left to right).",
+        "snippet": "const transform = (obj, fn, acc) => Object.keys(obj).reduce((a, k) => fn(a, obj[k], k, obj), acc);\n",
+        "uid": "acf3a018-3d81-11e8-a6f2-acde48001122"
+    }
+}

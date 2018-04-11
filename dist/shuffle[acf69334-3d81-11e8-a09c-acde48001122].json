@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "shuffle",
+        "dontautoexpand" : true,
+        "name" : "Randomizes the order of the values of an array, returning a new array.",
+        "snippet": "const shuffle = ([...arr]) => {\n  let m = arr.length;\n  while (m) {\n    const i = Math.floor(Math.random() * m--);\n    [arr[m], arr[i]] = [arr[i], arr[m]];\n  }\n  return arr;\n};\n",
+        "uid": "acf69334-3d81-11e8-a09c-acde48001122"
+    }
+}

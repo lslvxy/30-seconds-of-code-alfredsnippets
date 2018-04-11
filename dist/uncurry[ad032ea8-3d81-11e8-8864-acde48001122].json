@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "uncurry",
+        "dontautoexpand" : true,
+        "name" : "Uncurries a function up to depth `n`.",
+        "snippet": "const uncurry = (fn, n = 1) => (...args) => {\n  const next = acc => args => args.reduce((x, y) => x(y), acc);\n  if (n > args.length) throw new RangeError('Arguments too few!');\n  return next(fn)(args.slice(0, n));\n};\n",
+        "uid": "ad032ea8-3d81-11e8-8864-acde48001122"
+    }
+}

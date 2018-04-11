@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "distance",
-        "dontautoexpand" : true,
-        "name" : "Returns the distance between two points.",
-        "snippet": "const distance = (x0, y0, x1, y1) => Math.hypot(x1 - x0, y1 - y0);\n",
-        "uid": "55fee43a-fc18-11e7-9b36-784f4386400a"
-    }
-}

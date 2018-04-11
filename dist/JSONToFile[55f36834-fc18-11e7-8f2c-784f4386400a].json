@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "JSONToFile",
-        "dontautoexpand" : true,
-        "name" : "Writes a JSON object to a file.",
-        "snippet": "const fs = require('fs');\nconst JSONToFile = (obj, filename) =>\n  fs.writeFile(`${filename}.json`, JSON.stringify(obj, null, 2));\n",
-        "uid": "55f36834-fc18-11e7-8f2c-784f4386400a"
-    }
-}

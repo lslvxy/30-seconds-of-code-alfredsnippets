@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "unfold",
+        "dontautoexpand" : true,
+        "name" : "Builds an array, using an iterator function and an initial seed value.",
+        "snippet": "const unfold = (fn, seed) => {\n  let result = [],\n    val = [null, seed];\n  while ((val = fn(val[1]))) result.push(val[0]);\n  return result;\n};\n",
+        "uid": "ad028f74-3d81-11e8-91d3-acde48001122"
+    }
+}

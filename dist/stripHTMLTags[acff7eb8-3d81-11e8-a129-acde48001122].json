@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "stripHTMLTags",
+        "dontautoexpand" : true,
+        "name" : "Removes HTML/XML tags from string.",
+        "snippet": "const stripHTMLTags = str => str.replace(/<[^>]*>/g, '');\n",
+        "uid": "acff7eb8-3d81-11e8-a129-acde48001122"
+    }
+}

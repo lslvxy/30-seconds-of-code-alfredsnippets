@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "head",
+        "dontautoexpand" : true,
+        "name" : "Returns the head of a list.",
+        "snippet": "const head = arr => arr[0];\n",
+        "uid": "acf37712-3d81-11e8-b816-acde48001122"
+    }
+}

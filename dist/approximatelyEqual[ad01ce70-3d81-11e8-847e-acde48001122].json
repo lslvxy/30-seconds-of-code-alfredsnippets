@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "approximatelyEqual",
+        "dontautoexpand" : true,
+        "name" : "Checks if two numbers are approximately equal to each other.",
+        "snippet": "const approximatelyEqual = (v1, v2, epsilon = 0.001) => Math.abs(v1 - v2) < epsilon;\n",
+        "uid": "ad01ce70-3d81-11e8-847e-acde48001122"
+    }
+}

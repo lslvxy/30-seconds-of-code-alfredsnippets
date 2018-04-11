@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "differenceBy",
+        "dontautoexpand" : true,
+        "name" : "Returns the difference between two arrays, after applying the provided function to each array element of both.",
+        "snippet": "const differenceBy = (a, b, fn) => {\n  const s = new Set(b.map(v => fn(v)));\n  return a.filter(x => !s.has(fn(x)));\n};\n",
+        "uid": "acf60798-3d81-11e8-b644-acde48001122"
+    }
+}

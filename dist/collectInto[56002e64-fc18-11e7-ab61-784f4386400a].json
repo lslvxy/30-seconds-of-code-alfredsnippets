@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "collectInto",
-        "dontautoexpand" : true,
-        "name" : "Changes a function that accepts an array into a variadic function.",
-        "snippet": "const collectInto = fn => (...args) => fn(args);\n",
-        "uid": "56002e64-fc18-11e7-ab61-784f4386400a"
-    }
-}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "nest",
+        "dontautoexpand" : true,
+        "name" : "Given a flat array of objects linked to one another, it will nest them recursively.",
+        "snippet": "const nest = (items, id = null, link = 'parent_id') =>\n  items\n    .filter(item => item[link] === id)\n    .map(item => ({ ...item, children: nest(items, item.id) }));\n",
+        "uid": "acfc37e4-3d81-11e8-9e05-acde48001122"
+    }
+}

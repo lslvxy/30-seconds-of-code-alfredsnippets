@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "randomHexColorCode",
+        "dontautoexpand" : true,
+        "name" : "Generates a random hexadecimal color code.",
+        "snippet": "const randomHexColorCode = () => {\n  let n = (Math.random() * 0xfffff * 1000000).toString(16);\n  return '#' + n.slice(0, 6);\n};\n",
+        "uid": "acf6c412-3d81-11e8-bbd9-acde48001122"
+    }
+}

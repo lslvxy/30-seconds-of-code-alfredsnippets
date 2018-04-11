@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "readFileLines",
-        "dontautoexpand" : true,
-        "name" : "Returns an array of lines from the specified file.",
-        "snippet": "const fs = require('fs');\nconst readFileLines = filename =>\n  fs\n    .readFileSync(filename)\n    .toString('UTF8')\n    .split('\n');\n",
-        "uid": "55fa5246-fc18-11e7-81e9-784f4386400a"
-    }
-}

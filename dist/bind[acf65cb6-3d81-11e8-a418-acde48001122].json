@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "bind",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that invokes `fn` with a given context, optionally adding any additional supplied parameters to the beginning of the arguments.",
+        "snippet": "const bind = (fn, context, ...args) =>\n  function() {\n    return fn.apply(context, args.concat(...arguments));\n  };\n",
+        "uid": "acf65cb6-3d81-11e8-a418-acde48001122"
+    }
+}

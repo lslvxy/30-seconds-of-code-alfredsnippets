@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isObjectLike",
+        "dontautoexpand" : true,
+        "name" : "Checks if a value is object-like.",
+        "snippet": "const isObjectLike = val => val !== null && typeof val === 'object';\n",
+        "uid": "ad03da94-3d81-11e8-8721-acde48001122"
+    }
+}

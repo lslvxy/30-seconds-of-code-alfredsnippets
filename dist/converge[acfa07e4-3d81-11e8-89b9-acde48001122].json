@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "converge",
+        "dontautoexpand" : true,
+        "name" : "Accepts a converging function and a list of branching functions and returns a function that applies each branching function to the arguments and the results of the branching functions are passed as arguments to the converging function.",
+        "snippet": "const converge = (converger, fns) => (...args) => converger(...fns.map(fn => fn.apply(null, args)));\n",
+        "uid": "acfa07e4-3d81-11e8-89b9-acde48001122"
+    }
+}

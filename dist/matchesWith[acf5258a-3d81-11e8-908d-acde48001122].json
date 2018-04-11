@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "matchesWith",
+        "dontautoexpand" : true,
+        "name" : "Compares two objects to determine if the first one contains equivalent property values to the second one, based on a provided function.",
+        "snippet": "const matchesWith = (obj, source, fn) =>\n  Object.keys(source).every(\n    key =>\n      obj.hasOwnProperty(key) && fn\n        ? fn(obj[key], source[key], key, obj, source)\n        : obj[key] == source[key]\n  );\n",
+        "uid": "acf5258a-3d81-11e8-908d-acde48001122"
+    }
+}

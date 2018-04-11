@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sortedIndexBy",
+        "dontautoexpand" : true,
+        "name" : "Returns the lowest index at which value should be inserted into array in order to maintain its sort order, based on a provided iterator function.",
+        "snippet": "const sortedIndexBy = (arr, n, fn) => {\n  const isDescending = fn(arr[0]) > fn(arr[arr.length - 1]);\n  const val = fn(n);\n  const index = arr.findIndex(el => (isDescending ? val >= fn(el) : val <= fn(el)));\n  return index === -1 ? arr.length : index;\n};\n",
+        "uid": "acfc18f4-3d81-11e8-b548-acde48001122"
+    }
+}

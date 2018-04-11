@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sumBy",
+        "dontautoexpand" : true,
+        "name" : "Returns the sum of an array, after mapping each element to a value using the provided function.",
+        "snippet": "const sumBy = (arr, fn) =>\n  arr.map(typeof fn === 'function' ? fn : val => val[fn]).reduce((acc, val) => acc + val, 0);\n",
+        "uid": "acf3e77e-3d81-11e8-a34b-acde48001122"
+    }
+}

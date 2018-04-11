@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "mostPerformant",
+        "dontautoexpand" : true,
+        "name" : "Returns the index of the function in an array of functions which executed the fastest.",
+        "snippet": "const mostPerformant = (fns, iterations = 10000) => {\n  const times = fns.map(fn => {\n    const before = performance.now();\n    for (let i = 0; i < iterations; i++) fn();\n    return performance.now() - before;\n  });\n  return times.indexOf(Math.min(...times));\n};\n",
+        "uid": "acfd823e-3d81-11e8-aad4-acde48001122"
+    }
+}

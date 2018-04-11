@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "zipWith",
+        "dontautoexpand" : true,
+        "name" : "Creates an array of elements, grouped based on the position in the original arrays and using function as the last value to specify how grouped values should be combined.",
+        "snippet": "const zipWith = (...array) => {\n  const fn = typeof array[array.length - 1] === 'function' ? array.pop() : undefined;\n  return Array.from(\n    { length: Math.max(...array.map(a => a.length)) },\n    (_, i) => (fn ? fn(...array.map(a => a[i])) : array.map(a => a[i]))\n  );\n};\n",
+        "uid": "acf56ac2-3d81-11e8-abac-acde48001122"
+    }
+}

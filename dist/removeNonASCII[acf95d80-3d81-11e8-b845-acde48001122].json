@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "removeNonASCII",
+        "dontautoexpand" : true,
+        "name" : "Removes non-printable ASCII characters.",
+        "snippet": "const removeNonASCII = str => str.replace(/[^\x20-\x7E]/g, '');\n",
+        "uid": "acf95d80-3d81-11e8-b845-acde48001122"
+    }
+}

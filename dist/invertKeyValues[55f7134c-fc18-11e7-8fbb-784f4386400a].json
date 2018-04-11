@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "invertKeyValues",
-        "dontautoexpand" : true,
-        "name" : "Inverts the key-value pairs of an object, without mutating it.",
-        "snippet": "const invertKeyValues = obj =>\n  Object.keys(obj).reduce((acc, key) => {\n    acc[obj[key]] = key;\n    return acc;\n  }, {});\n",
-        "uid": "55f7134c-fc18-11e7-8fbb-784f4386400a"
-    }
-}

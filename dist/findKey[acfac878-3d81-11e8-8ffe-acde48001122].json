@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "findKey",
+        "dontautoexpand" : true,
+        "name" : "Returns the first key that satisfies the provided testing function. Otherwise `undefined` is returned.",
+        "snippet": "const findKey = (obj, fn) => Object.keys(obj).find(key => fn(obj[key], key, obj));\n",
+        "uid": "acfac878-3d81-11e8-8ffe-acde48001122"
+    }
+}

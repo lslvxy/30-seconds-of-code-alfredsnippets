@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sortedLastIndex",
+        "dontautoexpand" : true,
+        "name" : "Returns the highest index at which value should be inserted into array in order to maintain its sort order.",
+        "snippet": "const sortedLastIndex = (arr, n) => {\n  const isDescending = arr[0] > arr[arr.length - 1];\n  const index = arr.reverse().findIndex(el => (isDescending ? n <= el : n >= el));\n  return index === -1 ? 0 : arr.length - index;\n};\n",
+        "uid": "ad037fd8-3d81-11e8-9de4-acde48001122"
+    }
+}

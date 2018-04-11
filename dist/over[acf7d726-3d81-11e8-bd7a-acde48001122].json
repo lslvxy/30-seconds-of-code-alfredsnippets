@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "over",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that invokes each provided function with the arguments it receives and returns the results.",
+        "snippet": "const over = (...fns) => (...args) => fns.map(fn => fn.apply(null, args));\n",
+        "uid": "acf7d726-3d81-11e8-bd7a-acde48001122"
+    }
+}

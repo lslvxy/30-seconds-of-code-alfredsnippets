@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "binomialCoefficient",
+        "dontautoexpand" : true,
+        "name" : "Evaluates the binomial coefficient of two integers `n` and `k`.",
+        "snippet": "const binomialCoefficient = (n, k) => {\n  if (Number.isNaN(n) || Number.isNaN(k)) return NaN;\n  if (k < 0 || k > n) return 0;\n  if (k === 0 || k === n) return 1;\n  if (k === 1 || k === n - 1) return n;\n  if (n - k < k) k = n - k;\n  let res = n;\n  for (let j = 2; j <= k; j++) res *= (n - j + 1) / j;\n  return Math.round(res);\n};\n",
+        "uid": "acfb4938-3d81-11e8-befa-acde48001122"
+    }
+}

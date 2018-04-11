@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isObject",
+        "dontautoexpand" : true,
+        "name" : "Returns a boolean determining if the passed value is an object or not.",
+        "snippet": "const isObject = obj => obj === Object(obj);\n",
+        "uid": "acf93f3a-3d81-11e8-80fc-acde48001122"
+    }
+}

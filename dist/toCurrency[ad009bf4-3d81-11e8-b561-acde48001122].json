@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "toCurrency",
+        "dontautoexpand" : true,
+        "name" : "Take a number and return specified currency formatting.",
+        "snippet": "const toCurrency = (n, curr, LanguageFormat = undefined) =>\n  Intl.NumberFormat(LanguageFormat, { style: 'currency', currency: curr }).format(n);\n",
+        "uid": "ad009bf4-3d81-11e8-b561-acde48001122"
+    }
+}

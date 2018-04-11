@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "rearg",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that invokes the provided function with its arguments arranged according to the specified indexes.",
+        "snippet": "const rearg = (fn, indexes) => (...args) =>\n  fn(\n    ...args.reduce(\n      (acc, val, i) => ((acc[indexes.indexOf(i)] = val), acc),\n      Array.from({ length: indexes.length })\n    )\n  );\n",
+        "uid": "ad02fc9e-3d81-11e8-8163-acde48001122"
+    }
+}

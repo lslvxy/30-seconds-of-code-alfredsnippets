@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "bindAll",
+        "dontautoexpand" : true,
+        "name" : "Binds methods of an object to the object itself, overwriting the existing method.",
+        "snippet": "const bindAll = (obj, ...fns) =>\n  fns.forEach(\n    fn => (\n      (f = obj[fn]),\n      (obj[fn] = function() {\n        return f.apply(obj);\n      })\n    )\n  );\n",
+        "uid": "acfc934c-3d81-11e8-8c9f-acde48001122"
+    }
+}

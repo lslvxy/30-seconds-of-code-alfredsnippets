@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isBrowser",
+        "dontautoexpand" : true,
+        "name" : "Determines if the current runtime environment is a browser so that front-end modules can run on the server (Node) without throwing errors.",
+        "snippet": "const isBrowser = () => ![typeof window, typeof document].includes('undefined');\n",
+        "uid": "ad03979e-3d81-11e8-8a94-acde48001122"
+    }
+}

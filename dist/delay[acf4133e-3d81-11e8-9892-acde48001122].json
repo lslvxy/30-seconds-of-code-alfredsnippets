@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "delay",
+        "dontautoexpand" : true,
+        "name" : "Invokes the provided function after `wait` milliseconds.",
+        "snippet": "const delay = (fn, wait, ...args) => setTimeout(fn, wait, ...args);\n",
+        "uid": "acf4133e-3d81-11e8-9892-acde48001122"
+    }
+}

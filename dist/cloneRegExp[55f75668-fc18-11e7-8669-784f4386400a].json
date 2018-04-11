@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "cloneRegExp",
-        "dontautoexpand" : true,
-        "name" : "Clones a regular expression.",
-        "snippet": "const cloneRegExp = regExp => new RegExp(regExp.source, regExp.flags);\n",
-        "uid": "55f75668-fc18-11e7-8669-784f4386400a"
-    }
-}

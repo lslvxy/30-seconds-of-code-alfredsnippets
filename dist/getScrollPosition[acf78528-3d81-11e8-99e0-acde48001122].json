@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "getScrollPosition",
+        "dontautoexpand" : true,
+        "name" : "Returns the scroll position of the current page.",
+        "snippet": "const getScrollPosition = (el = window) => ({\n  x: el.pageXOffset !== undefined ? el.pageXOffset : el.scrollLeft,\n  y: el.pageYOffset !== undefined ? el.pageYOffset : el.scrollTop\n});\n",
+        "uid": "acf78528-3d81-11e8-99e0-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "is",
+        "dontautoexpand" : true,
+        "name" : "Checks if the provided value is of the specified type (doesn't work with literals).",
+        "snippet": "const is = (type, val) => val instanceof type;\n",
+        "uid": "ad02a412-3d81-11e8-9f61-acde48001122"
+    }
+}

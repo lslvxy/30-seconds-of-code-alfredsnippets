@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "unionBy",
+        "dontautoexpand" : true,
+        "name" : "Returns every element that exists in any of the two arrays once, after applying the provided function to each array element of both.",
+        "snippet": "const unionBy = (a, b, fn) => {\n  const s = new Set(a.map(v => fn(v)));\n  return Array.from(new Set([...a, ...b.filter(x => !s.has(fn(x)))]));\n};\n",
+        "uid": "acf9d6ca-3d81-11e8-b6eb-acde48001122"
+    }
+}

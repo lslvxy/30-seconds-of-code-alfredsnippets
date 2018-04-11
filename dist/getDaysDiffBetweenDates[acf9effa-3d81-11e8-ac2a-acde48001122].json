@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "getDaysDiffBetweenDates",
+        "dontautoexpand" : true,
+        "name" : "Returns the difference (in days) between two dates.",
+        "snippet": "const getDaysDiffBetweenDates = (dateInitial, dateFinal) =>\n  (dateFinal - dateInitial) / (1000 * 3600 * 24);\n",
+        "uid": "acf9effa-3d81-11e8-ac2a-acde48001122"
+    }
+}

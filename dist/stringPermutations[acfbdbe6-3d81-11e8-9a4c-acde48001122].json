@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "stringPermutations",
+        "dontautoexpand" : true,
+        "name" : "⚠️ **WARNING**: This function's execution time increases exponentially with each character. Anything more than 8 to 10 characters will cause your browser to hang as it tries to solve all the different combinations.",
+        "snippet": "const stringPermutations = str => {\n  if (str.length <= 2) return str.length === 2 ? [str, str[1] + str[0]] : [str];\n  return str\n    .split('')\n    .reduce(\n      (acc, letter, i) =>\n        acc.concat(stringPermutations(str.slice(0, i) + str.slice(i + 1)).map(val => letter + val)),\n      []\n    );\n};\n",
+        "uid": "acfbdbe6-3d81-11e8-9a4c-acde48001122"
+    }
+}

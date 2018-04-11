@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "atob",
+        "dontautoexpand" : true,
+        "name" : "Decodes a string of data which has been encoded using base-64 encoding.",
+        "snippet": "const atob = str => new Buffer(str, 'base64').toString('binary');\n",
+        "uid": "acf69f28-3d81-11e8-a17d-acde48001122"
+    }
+}

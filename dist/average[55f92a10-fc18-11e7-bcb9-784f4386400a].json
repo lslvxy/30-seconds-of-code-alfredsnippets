@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "average",
-        "dontautoexpand" : true,
-        "name" : "Returns the average of an of two or more numbers.",
-        "snippet": "const average = (...nums) => [...nums].reduce((acc, val) => acc + val, 0) / nums.length;\n",
-        "uid": "55f92a10-fc18-11e7-bcb9-784f4386400a"
-    }
-}

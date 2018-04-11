@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "unflattenObject",
+        "dontautoexpand" : true,
+        "name" : "Unlatten an object with the paths for keys.",
+        "snippet": "const unflattenObject = obj =>\n  Object.keys(obj).reduce((acc, k) => {\n    if (k.indexOf('.') !== -1) {\n      const keys = k.split('.');\n      Object.assign(\n        acc,\n        JSON.parse(\n          '{' +\n            keys.map((v, i) => (i !== keys.length - 1 ? `\"${v}\":{` : `\"${v}\":`)).join('') +\n            obj[k] +\n            '}'.repeat(keys.length)\n        )\n      );\n    } else acc[k] = obj[k];\n    return acc;\n  }, {});\n",
+        "uid": "acf4cdec-3d81-11e8-8980-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "nthArg",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that gets the argument at index `n`. If `n` is negative, the nth argument from the end is returned.",
+        "snippet": "const nthArg = n => (...args) => args.slice(n)[0];\n",
+        "uid": "acf748a6-3d81-11e8-859a-acde48001122"
+    }
+}

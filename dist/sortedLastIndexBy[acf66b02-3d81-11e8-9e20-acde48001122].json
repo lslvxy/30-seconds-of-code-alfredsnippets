@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "sortedLastIndexBy",
+        "dontautoexpand" : true,
+        "name" : "Returns the highest index at which value should be inserted into array in order to maintain its sort order, based on a provided iterator function.",
+        "snippet": "const sortedLastIndexBy = (arr, n, fn) => {\n  const isDescending = fn(arr[0]) > fn(arr[arr.length - 1]);\n  const val = fn(n);\n  const index = arr\n    .map(fn)\n    .reverse()\n    .findIndex(el => (isDescending ? val <= el : val >= el));\n  return index === -1 ? 0 : arr.length - index;\n};\n",
+        "uid": "acf66b02-3d81-11e8-9e20-acde48001122"
+    }
+}

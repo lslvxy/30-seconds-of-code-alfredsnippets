@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "drop",
+        "dontautoexpand" : true,
+        "name" : "Returns a new array with `n` elements removed from the left.",
+        "snippet": "const drop = (arr, n = 1) => arr.slice(n);\n",
+        "uid": "acf8e56c-3d81-11e8-9648-acde48001122"
+    }
+}

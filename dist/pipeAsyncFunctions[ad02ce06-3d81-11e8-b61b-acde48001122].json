@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "pipeAsyncFunctions",
+        "dontautoexpand" : true,
+        "name" : "Performs left-to-right function composition for asynchronous functions.",
+        "snippet": "const pipeAsyncFunctions = (...fns) => arg => fns.reduce((p, f) => p.then(f), Promise.resolve(arg));\n",
+        "uid": "ad02ce06-3d81-11e8-b61b-acde48001122"
+    }
+}

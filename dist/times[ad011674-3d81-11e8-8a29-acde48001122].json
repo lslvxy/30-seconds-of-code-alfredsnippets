@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "times",
+        "dontautoexpand" : true,
+        "name" : "Iterates over a callback `n` times",
+        "snippet": "const times = (n, fn, context = undefined) => {\n  let i = 0;\n  while (fn.call(context, i) !== false && ++i < n) {}\n};\n",
+        "uid": "ad011674-3d81-11e8-8a29-acde48001122"
+    }
+}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "btoa",
-        "dontautoexpand" : true,
-        "name" : "Creates a base-64 encoded ASCII string from a String object in which each character in the string is treated as a byte of binary data.",
-        "snippet": "const btoa = str => new Buffer(str, 'binary').toString('base64');\n",
-        "uid": "55fa4742-fc18-11e7-98a9-784f4386400a"
-    }
-}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "offset",
+        "dontautoexpand" : true,
+        "name" : "Moves the specified amount of elements to the end of the array.",
+        "snippet": "const offset = (arr, offset) => [...arr.slice(offset), ...arr.slice(0, offset)];\n",
+        "uid": "ad016908-3d81-11e8-baab-acde48001122"
+    }
+}

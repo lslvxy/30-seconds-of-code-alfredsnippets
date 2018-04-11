@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "bindKey",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that invokes the method at a given key of an object, optionally adding any additional supplied parameters to the beginning of the arguments.",
+        "snippet": "const bindKey = (context, fn, ...args) =>\n  function() {\n    return context[fn].apply(context, args.concat(...arguments));\n  };\n",
+        "uid": "acfe569e-3d81-11e8-9f72-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "intersectionBy",
+        "dontautoexpand" : true,
+        "name" : "Returns a list of elements that exist in both arrays, after applying the provided function to each array element of both.",
+        "snippet": "const intersectionBy = (a, b, fn) => {\n  const s = new Set(b.map(x => fn(x)));\n  return a.filter(x => s.has(fn(x)));\n};\n",
+        "uid": "acffd798-3d81-11e8-90f4-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "unionWith",
+        "dontautoexpand" : true,
+        "name" : "Returns every element that exists in any of the two arrays once, using a provided comparator function.",
+        "snippet": "const unionWith = (a, b, comp) =>\n  Array.from(new Set([...a, ...b.filter(x => a.findIndex(y => comp(x, y)) === -1)]));\n",
+        "uid": "ad03a268-3d81-11e8-89f4-acde48001122"
+    }
+}

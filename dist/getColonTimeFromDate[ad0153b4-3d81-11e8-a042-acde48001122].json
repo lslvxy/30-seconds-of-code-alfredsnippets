@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "getColonTimeFromDate",
+        "dontautoexpand" : true,
+        "name" : "Returns a string of the form `HH:MM:SS` from a `Date` object.",
+        "snippet": "const getColonTimeFromDate = date => date.toTimeString().slice(0, 8);\n",
+        "uid": "ad0153b4-3d81-11e8-a042-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "hide",
+        "dontautoexpand" : true,
+        "name" : "Hides all the elements specified.",
+        "snippet": "const hide = (...el) => [...el].forEach(e => (e.style.display = 'none'));\n",
+        "uid": "acf449da-3d81-11e8-8a30-acde48001122"
+    }
+}

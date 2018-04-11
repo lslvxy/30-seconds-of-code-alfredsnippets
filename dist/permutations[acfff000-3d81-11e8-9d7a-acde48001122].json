@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "permutations",
+        "dontautoexpand" : true,
+        "name" : "⚠️ **WARNING**: This function's execution time increases exponentially with each array element. Anything more than 8 to 10 entries will cause your browser to hang as it tries to solve all the different combinations.",
+        "snippet": "const permutations = arr => {\n  if (arr.length <= 2) return arr.length === 2 ? [arr, [arr[1], arr[0]]] : arr;\n  return arr.reduce(\n    (acc, item, i) =>\n      acc.concat(\n        permutations([...arr.slice(0, i), ...arr.slice(i + 1)]).map(val => [item, ...val])\n      ),\n    []\n  );\n};\n",
+        "uid": "acfff000-3d81-11e8-9d7a-acde48001122"
+    }
+}

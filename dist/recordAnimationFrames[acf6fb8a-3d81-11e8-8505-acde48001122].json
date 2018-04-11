@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "recordAnimationFrames",
+        "dontautoexpand" : true,
+        "name" : "Invokes the provided callback on each animation frame.",
+        "snippet": "const recordAnimationFrames = (callback, autoStart = true) => {\n  let running = true,\n    raf;\n  const stop = () => {\n    running = false;\n    cancelAnimationFrame(raf);\n  };\n  const start = () => {\n    running = true;\n    run();\n  };\n  const run = () => {\n    raf = requestAnimationFrame(() => {\n      callback();\n      if (running) run();\n    });\n  };\n  if (autoStart) start();\n  return { start, stop };\n};\n",
+        "uid": "acf6fb8a-3d81-11e8-8505-acde48001122"
+    }
+}

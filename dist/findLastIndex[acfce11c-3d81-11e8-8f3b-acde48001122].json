@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "findLastIndex",
+        "dontautoexpand" : true,
+        "name" : "Returns the index of the last element for which the provided function returns a truthy value.",
+        "snippet": "const findLastIndex = (arr, fn) =>\n  arr\n    .map((val, i) => [i, val])\n    .filter(val => fn(val[1], val[0], arr))\n    .slice(-1)[0][0];\n",
+        "uid": "acfce11c-3d81-11e8-8f3b-acde48001122"
+    }
+}

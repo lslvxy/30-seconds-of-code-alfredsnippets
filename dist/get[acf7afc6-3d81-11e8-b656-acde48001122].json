@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "get",
+        "dontautoexpand" : true,
+        "name" : "Retrieve a set of properties indicated by the given selectors from an object.",
+        "snippet": "const get = (from, ...selectors) =>\n  [...selectors].map(s =>\n    s\n      .replace(/\[([^\[\]]*)\]/g, '.$1.')\n      .split('.')\n      .filter(t => t !== '')\n      .reduce((prev, cur) => prev && prev[cur], from)\n  );\n",
+        "uid": "acf7afc6-3d81-11e8-b656-acde48001122"
+    }
+}

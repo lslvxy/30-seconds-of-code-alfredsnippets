@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "debounce",
+        "dontautoexpand" : true,
+        "name" : "Creates a debounced function that delays invoking the provided function until at least `ms` milliseconds have elapsed since the last time it was invoked.",
+        "snippet": "const debounce = (fn, ms = 0) => {\n  let timeoutId;\n  return function(...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => fn.apply(this, args), ms);\n  };\n};\n",
+        "uid": "acfad430-3d81-11e8-a8a5-acde48001122"
+    }
+}

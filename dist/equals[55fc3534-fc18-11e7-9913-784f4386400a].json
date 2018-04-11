@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "equals",
-        "dontautoexpand" : true,
-        "name" : "Performs a deep comparison between two values to determine if they are equivalent.",
-        "snippet": "const equals = (a, b) => {\n  if (a === b) return true;\n  if (a instanceof Date && b instanceof Date) return a.getTime() === b.getTime();\n  if (!a || !b || (typeof a != 'object' && typeof b !== 'object')) return a === b;\n  if (a === null || a === undefined || b === null || b === undefined) return false;\n  if (a.prototype !== b.prototype) return false;\n  let keys = Object.keys(a);\n  if (keys.length !== Object.keys(b).length) return false;\n  return keys.every(k => equals(a[k], b[k]));\n};\n",
-        "uid": "55fc3534-fc18-11e7-9913-784f4386400a"
-    }
-}

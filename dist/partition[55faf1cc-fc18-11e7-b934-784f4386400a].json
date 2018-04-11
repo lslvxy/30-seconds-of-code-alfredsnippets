@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "partition",
-        "dontautoexpand" : true,
-        "name" : "Groups the elements into two arrays, depending on the provided function's truthiness for each element.",
-        "snippet": "const partition = (arr, fn) =>\n  arr.reduce(\n    (acc, val, i, arr) => {\n      acc[fn(val, i, arr) ? 0 : 1].push(val);\n      return acc;\n    },\n    [[], []]\n  );\n",
-        "uid": "55faf1cc-fc18-11e7-b934-784f4386400a"
-    }
-}

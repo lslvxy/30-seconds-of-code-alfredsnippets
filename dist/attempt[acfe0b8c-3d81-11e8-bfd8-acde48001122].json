@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "attempt",
+        "dontautoexpand" : true,
+        "name" : "Attempts to invoke a function with the provided arguments, returning either the result or the caught error object.",
+        "snippet": "const attempt = (fn, ...args) => {\n  try {\n    return fn(...args);\n  } catch (e) {\n    return e instanceof Error ? e : new Error(e);\n  }\n};\n",
+        "uid": "acfe0b8c-3d81-11e8-bfd8-acde48001122"
+    }
+}

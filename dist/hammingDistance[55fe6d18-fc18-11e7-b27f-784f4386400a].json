@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "hammingDistance",
-        "dontautoexpand" : true,
-        "name" : "Calculates the Hamming distance between two values.",
-        "snippet": "const hammingDistance = (num1, num2) => ((num1 ^ num2).toString(2).match(/1/g) || '').length;\n",
-        "uid": "55fe6d18-fc18-11e7-b27f-784f4386400a"
-    }
-}

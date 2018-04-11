@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "dropRightWhile",
+        "dontautoexpand" : true,
+        "name" : "Removes elements from the end of an array until the passed function returns `true`. Returns the remaining elements in the array.",
+        "snippet": "const dropRightWhile = (arr, func) => {\n  while (arr.length > 0 && !func(arr[arr.length - 1])) arr = arr.slice(0, -1);\n  return arr;\n};\n",
+        "uid": "acf68418-3d81-11e8-b9e5-acde48001122"
+    }
+}

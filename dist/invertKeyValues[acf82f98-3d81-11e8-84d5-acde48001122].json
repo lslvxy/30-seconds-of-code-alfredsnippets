@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "invertKeyValues",
+        "dontautoexpand" : true,
+        "name" : "Inverts the key-value pairs of an object, without mutating it. The corresponding inverted value of each inverted key is an array of keys responsible for generating the inverted value. If a function is supplied, it is applied to each inverted key.",
+        "snippet": "const invertKeyValues = (obj, fn) =>\n  Object.keys(obj).reduce((acc, key) => {\n    const val = fn ? fn(obj[key]) : obj[key];\n    acc[val] = acc[val] || [];\n    acc[val].push(key);\n    return acc;\n  }, {});\n",
+        "uid": "acf82f98-3d81-11e8-84d5-acde48001122"
+    }
+}

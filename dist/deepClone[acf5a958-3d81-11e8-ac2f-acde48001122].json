@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "deepClone",
+        "dontautoexpand" : true,
+        "name" : "Creates a deep clone of an object.",
+        "snippet": "const deepClone = obj => {\n  let clone = Object.assign({}, obj);\n  Object.keys(clone).forEach(\n    key => (clone[key] = typeof obj[key] === 'object' ? deepClone(obj[key]) : obj[key])\n  );\n  return clone;\n};\n",
+        "uid": "acf5a958-3d81-11e8-ac2f-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "partialRight",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that invokes `fn` with `partials` appended to the arguments it receives.",
+        "snippet": "const partialRight = (fn, ...partials) => (...args) => fn(...args, ...partials);\n",
+        "uid": "acf6a998-3d81-11e8-9f6d-acde48001122"
+    }
+}

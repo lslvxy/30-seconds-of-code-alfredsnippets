@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "words",
-        "dontautoexpand" : true,
-        "name" : "Converts a given string into an array of words.",
-        "snippet": "const words = (str, pattern = /[^a-zA-Z-]+/) => str.split(pattern).filter(Boolean);\n",
-        "uid": "55f417d2-fc18-11e7-aef4-784f4386400a"
-    }
-}

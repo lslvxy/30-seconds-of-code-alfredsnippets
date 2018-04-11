@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "union",
+        "dontautoexpand" : true,
+        "name" : "Returns every element that exists in any of the two arrays once.",
+        "snippet": "const union = (a, b) => Array.from(new Set([...a, ...b]));\n",
+        "uid": "acf8a5a2-3d81-11e8-a736-acde48001122"
+    }
+}

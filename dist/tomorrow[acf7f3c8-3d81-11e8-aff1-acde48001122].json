@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "tomorrow",
+        "dontautoexpand" : true,
+        "name" : "Results in a string representation of tomorrow's date.",
+        "snippet": "const tomorrow = (long = false) => {\n  let t = new Date();\n  t.setDate(t.getDate() + 1);\n  const ret = `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(\n    t.getDate()\n  ).padStart(2, '0')}`;\n  return !long ? ret : `${ret}T00:00:00`;\n};\n",
+        "uid": "acf7f3c8-3d81-11e8-aff1-acde48001122"
+    }
+}

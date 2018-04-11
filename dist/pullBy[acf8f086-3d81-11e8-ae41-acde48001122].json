@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "pullBy",
+        "dontautoexpand" : true,
+        "name" : "Mutates the original array to filter out the values specified, based on a given iterator function.",
+        "snippet": "const pullBy = (arr, ...args) => {\n  const length = args.length;\n  let fn = length > 1 ? args[length - 1] : undefined;\n  fn = typeof fn == 'function' ? (args.pop(), fn) : undefined;\n  let argState = (Array.isArray(args[0]) ? args[0] : args).map(val => fn(val));\n  let pulled = arr.filter((v, i) => !argState.includes(fn(v)));\n  arr.length = 0;\n  pulled.forEach(v => arr.push(v));\n};\n",
+        "uid": "acf8f086-3d81-11e8-ae41-acde48001122"
+    }
+}

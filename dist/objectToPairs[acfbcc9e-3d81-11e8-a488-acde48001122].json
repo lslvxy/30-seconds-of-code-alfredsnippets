@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "objectToPairs",
+        "dontautoexpand" : true,
+        "name" : "Creates an array of key-value pair arrays from an object.",
+        "snippet": "const objectToPairs = obj => Object.keys(obj).map(k => [k, obj[k]]);\n",
+        "uid": "acfbcc9e-3d81-11e8-a488-acde48001122"
+    }
+}

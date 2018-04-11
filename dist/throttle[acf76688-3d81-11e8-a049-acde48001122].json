@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "throttle",
+        "dontautoexpand" : true,
+        "name" : "Creates a throttled function that only invokes the provided function at most once per every `wait` milliseconds",
+        "snippet": "const throttle = (fn, wait) => {\n  let inThrottle, lastFn, lastTime;\n  return function() {\n    const context = this,\n      args = arguments;\n    if (!inThrottle) {\n      fn.apply(context, args);\n      lastTime = Date.now();\n      inThrottle = true;\n    } else {\n      clearTimeout(lastFn);\n      lastFn = setTimeout(function() {\n        if (Date.now() - lastTime >= wait) {\n          fn.apply(context, args);\n          lastTime = Date.now();\n        }\n      }, wait - (Date.now() - lastTime));\n    }\n  };\n};\n",
+        "uid": "acf76688-3d81-11e8-a049-acde48001122"
+    }
+}

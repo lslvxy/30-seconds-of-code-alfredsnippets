@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "setStyle",
+        "dontautoexpand" : true,
+        "name" : "Sets the value of a CSS rule for the specified element.",
+        "snippet": "const setStyle = (el, ruleName, val) => (el.style[ruleName] = val);\n",
+        "uid": "acff8c46-3d81-11e8-9c9a-acde48001122"
+    }
+}

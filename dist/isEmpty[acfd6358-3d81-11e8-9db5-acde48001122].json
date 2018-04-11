@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isEmpty",
+        "dontautoexpand" : true,
+        "name" : "Returns true if the a value is an empty object, collection, map or set, has no enumerable properties or is any type that is not considered a collection.",
+        "snippet": "const isEmpty = val => val == null || !(Object.keys(val) || val).length;\n",
+        "uid": "acfd6358-3d81-11e8-9db5-acde48001122"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "intersectionWith",
+        "dontautoexpand" : true,
+        "name" : "Returns a list of elements that exist in both arrays, using a provided comparator function.",
+        "snippet": "const intersectionWith = (a, b, comp) => a.filter(x => b.findIndex(y => comp(x, y)) !== -1);\n",
+        "uid": "acf6b562-3d81-11e8-9019-acde48001122"
+    }
+}

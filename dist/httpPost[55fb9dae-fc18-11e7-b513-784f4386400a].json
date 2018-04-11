@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "httpPost",
-        "dontautoexpand" : true,
-        "name" : "Makes a `POST` request to the passed URL.",
-        "snippet": "const httpPost = (url, data, callback, err = console.error) => {\n  const request = new XMLHttpRequest();\n  request.open('POST', url, true);\n  request.setRequestHeader('Content-type', 'application/json; charset=utf-8');\n  request.onload = () => callback(request.responseText);\n  request.onerror = () => err(request);\n  request.send(data);\n};\n",
-        "uid": "55fb9dae-fc18-11e7-b513-784f4386400a"
-    }
-}

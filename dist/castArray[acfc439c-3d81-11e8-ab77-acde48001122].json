@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "castArray",
+        "dontautoexpand" : true,
+        "name" : "Casts the provided value as an array if it's not one.",
+        "snippet": "const castArray = val => (Array.isArray(val) ? val : [val]);\n",
+        "uid": "acfc439c-3d81-11e8-ab77-acde48001122"
+    }
+}

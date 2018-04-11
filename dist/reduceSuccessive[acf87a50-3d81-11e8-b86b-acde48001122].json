@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "reduceSuccessive",
+        "dontautoexpand" : true,
+        "name" : "Applies a function against an accumulator and each element in the array (from left to right), returning an array of successively reduced values.",
+        "snippet": "const reduceSuccessive = (arr, fn, acc) =>\n  arr.reduce((res, val, i, arr) => (res.push(fn(res.slice(-1)[0], val, i, arr)), res), [acc]);\n",
+        "uid": "acf87a50-3d81-11e8-b86b-acde48001122"
+    }
+}

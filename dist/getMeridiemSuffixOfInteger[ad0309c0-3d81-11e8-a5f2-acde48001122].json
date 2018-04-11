@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "getMeridiemSuffixOfInteger",
+        "dontautoexpand" : true,
+        "name" : "Converts an integer to a suffixed string, adding `am` or `pm` based on its value.",
+        "snippet": "const getMeridiemSuffixOfInteger = num =>\n  num === 0 || num === 24\n    ? 12 + 'am'\n    : num === 12 ? 12 + 'pm' : num < 12 ? num % 12 + 'am' : num % 12 + 'pm';\n",
+        "uid": "ad0309c0-3d81-11e8-a5f2-acde48001122"
+    }
+}

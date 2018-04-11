@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "findLastKey",
+        "dontautoexpand" : true,
+        "name" : "Returns the last key that satisfies the provided testing function. Otherwise `undefined` is returned.",
+        "snippet": "const findLastKey = (obj, fn) =>\n  Object.keys(obj)\n    .reverse()\n    .find(key => fn(obj[key], key, obj));\n",
+        "uid": "acf3814c-3d81-11e8-addc-acde48001122"
+    }
+}

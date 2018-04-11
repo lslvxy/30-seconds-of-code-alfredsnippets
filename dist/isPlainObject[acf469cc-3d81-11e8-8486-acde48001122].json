@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "isPlainObject",
+        "dontautoexpand" : true,
+        "name" : "Checks if the provided value is an object created by the Object constructor.",
+        "snippet": "const isPlainObject = val => !!val && typeof val === 'object' && val.constructor === Object;\n",
+        "uid": "acf469cc-3d81-11e8-8486-acde48001122"
+    }
+}

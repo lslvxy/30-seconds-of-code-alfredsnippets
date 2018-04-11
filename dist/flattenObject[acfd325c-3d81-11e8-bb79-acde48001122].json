@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "flattenObject",
+        "dontautoexpand" : true,
+        "name" : "Flatten an object with the paths for keys.",
+        "snippet": "const flattenObject = (obj, prefix = '') =>\n  Object.keys(obj).reduce((acc, k) => {\n    const pre = prefix.length ? prefix + '.' : '';\n    if (typeof obj[k] === 'object') Object.assign(acc, flattenObject(obj[k], pre + k));\n    else acc[pre + k] = obj[k];\n    return acc;\n  }, {});\n",
+        "uid": "acfd325c-3d81-11e8-bb79-acde48001122"
+    }
+}

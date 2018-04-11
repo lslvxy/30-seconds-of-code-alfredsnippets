@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "indexOfAll",
+        "dontautoexpand" : true,
+        "name" : "Returns all indices of `val` in an array. If `val` never occurs, returns `[]`.",
+        "snippet": "const indexOfAll = (arr, val) => {\n  const indices = [];\n  arr.forEach((el, i) => el === val && indices.push(i));\n  return indices;\n};\n",
+        "uid": "acfa792c-3d81-11e8-84da-acde48001122"
+    }
+}

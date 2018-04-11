@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "observeMutations",
-        "dontautoexpand" : true,
-        "name" : "Returns a new MutationObserver and runs the provided callback for each mutation on the specified element.",
-        "snippet": "const observeMutations = (element, callback, options) => {\n  const observer = new MutationObserver(mutations => mutations.forEach(m => callback(m)));\n  observer.observe(\n    element,\n    Object.assign(\n      {\n        childList: true,\n        attributes: true,\n        attributeOldValue: true,\n        characterData: true,\n        characterDataOldValue: true,\n        subtree: true\n      },\n      options\n    )\n  );\n  return observer;\n};\n",
-        "uid": "55fe8fa8-fc18-11e7-9aef-784f4386400a"
-    }
-}

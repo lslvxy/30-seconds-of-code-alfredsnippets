@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "xProd",
+        "dontautoexpand" : true,
+        "name" : "Creates a new array out of the two supplied by creating each possible pair from the arrays.",
+        "snippet": "const xProd = (a, b) => a.reduce((acc, x) => acc.concat(b.map(y => [x, y])), []);\n",
+        "uid": "acf70cb0-3d81-11e8-bb79-acde48001122"
+    }
+}

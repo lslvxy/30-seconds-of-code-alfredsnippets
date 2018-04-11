@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "pullAtValue",
-        "dontautoexpand" : true,
-        "name" : "Mutates the original array to filter out the values specified. Returns the removed elements.",
-        "snippet": "const pullAtValue = (arr, pullArr) => {\n  let removed = [],\n    pushToRemove = arr.forEach((v, i) => (pullArr.includes(v) ? removed.push(v) : v)),\n    mutateTo = arr.filter((v, i) => !pullArr.includes(v));\n  arr.length = 0;\n  mutateTo.forEach(v => arr.push(v));\n  return removed;\n};\n",
-        "uid": "55f6fd12-fc18-11e7-82a2-784f4386400a"
-    }
-}

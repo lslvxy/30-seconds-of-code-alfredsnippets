@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "radsToDegrees",
+        "dontautoexpand" : true,
+        "name" : "Converts an angle from radians to degrees.",
+        "snippet": "const radsToDegrees = rad => rad * 180.0 / Math.PI;\n",
+        "uid": "acf75936-3d81-11e8-8e18-acde48001122"
+    }
+}

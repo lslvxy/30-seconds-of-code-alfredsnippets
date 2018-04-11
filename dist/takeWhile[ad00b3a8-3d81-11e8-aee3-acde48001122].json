@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "takeWhile",
+        "dontautoexpand" : true,
+        "name" : "Removes elements in an array until the passed function returns `true`. Returns the removed elements.",
+        "snippet": "const takeWhile = (arr, func) => {\n  for (let i of arr.keys()) if (func(arr[i])) return arr.slice(0, i);\n  return arr;\n};\n",
+        "uid": "ad00b3a8-3d81-11e8-aee3-acde48001122"
+    }
+}

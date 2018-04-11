@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "all",
+        "dontautoexpand" : true,
+        "name" : "Returns `true` if the provided predicate function returns `true` for all elements in a collection, `false` otherwise.",
+        "snippet": "const all = (arr, fn = Boolean) => arr.every(fn);\n",
+        "uid": "ad01a724-3d81-11e8-b745-acde48001122"
+    }
+}

@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "fromCamelCase",
-        "dontautoexpand" : true,
-        "name" : "Converts a string from camelcase.",
-        "snippet": "const fromCamelCase = (str, separator = '_') =>\n  str\n    .replace(/([a-z\d])([A-Z])/g, '$1' + separator + '$2')\n    .replace(/([A-Z]+)([A-Z][a-z\d]+)/g, '$1' + separator + '$2')\n    .toLowerCase();\n",
-        "uid": "55fd37f4-fc18-11e7-9fb0-784f4386400a"
-    }
-}

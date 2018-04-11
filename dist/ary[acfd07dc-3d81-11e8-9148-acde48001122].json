@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "ary",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that accepts up to `n` arguments, ignoring any additional arguments.",
+        "snippet": "const ary = (fn, n) => (...args) => fn(...args.slice(0, n));\n",
+        "uid": "acfd07dc-3d81-11e8-9148-acde48001122"
+    }
+}

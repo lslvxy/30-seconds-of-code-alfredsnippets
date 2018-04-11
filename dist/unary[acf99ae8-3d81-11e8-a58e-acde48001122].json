@@ -1,0 +1,9 @@
+{
+    "alfredsnippet" : {
+        "keyword" : "unary",
+        "dontautoexpand" : true,
+        "name" : "Creates a function that accepts up to one argument, ignoring any additional arguments.",
+        "snippet": "const unary = fn => val => fn(val);\n",
+        "uid": "acf99ae8-3d81-11e8-a58e-acde48001122"
+    }
+}

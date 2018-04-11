@@ -1,9 +1,0 @@
-{
-    "alfredsnippet" : {
-        "keyword" : "uniqueElements",
-        "dontautoexpand" : true,
-        "name" : "Returns all unique values of an array.",
-        "snippet": "const uniqueElements = arr => [...new Set(arr)];\n",
-        "uid": "55f48e62-fc18-11e7-a811-784f4386400a"
-    }
-}
